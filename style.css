@@ -1,6 +1,6 @@
 body {
 	color: white;
-	background: black;
+	background: cornsilk;
 
 	max-width: 800px;
 	margin-left: auto;
@@ -9,13 +9,21 @@ body {
 
 
 h1 {
-	color: blue;
+	color: crimson;
 }
 
 h1 {
 	text-align: center;
 }
 
+h2 {
+	color: lightcoral;
+}
+
+h2 {
+	text-align: center;
+}
+
 p {
-	color: green;
+	color: lightskyblue;
 }
