@@ -1,6 +1,6 @@
 body {
-	color: white;
-	background: cornsilk;
+	color: lightyellow;
+	background: black;
 
 	max-width: 800px;
 	margin-left: auto;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-	color: lightcoral;
+	color: navy;
 }
 
 h2 {
@@ -25,5 +25,5 @@ h2 {
 }
 
 p {
-	color: lightskyblue;
+	color: royalblue;
 }
