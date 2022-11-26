@@ -3,5 +3,5 @@
 <img
   src="archives/7.jpg"
   alt="siete"
-  title="Cestrum nocturnum"
-  style="display: inline-block; margin: 0 auto; max-width: 500px"/>
+  title="Cestrum nocturnum"/>
+![My image](images/my-image.jpg)
