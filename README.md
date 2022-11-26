@@ -4,4 +4,4 @@
   src="archives/7.jpg"
   alt="siete"
   title="Cestrum nocturnum"
-  style="display: inline-block; margin: 0 auto; max-width: 500px">
+  style="display: inline-block; margin: 0 auto; max-width: 500px"/>
