@@ -17,7 +17,7 @@ h1 {
 
 
 h2 {
-  color: crimson; 
+  color: green; 
   font-family: 'Source Sans Pro';
   font-size: 22px;
   font-weight: 400;
@@ -25,13 +25,7 @@ h2 {
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-h3 {
-	color: crimson;
-}
 
 p {
 	color: black;
-    font-family: 'good_timesregular';
-    font-weight: normal;
-    font-style: normal;
 }
