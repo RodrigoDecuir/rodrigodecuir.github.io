@@ -56,6 +56,10 @@ a {
     text-decoration: none;
 }
 
+.date {
+    display: none;
+}
+
 .resize {
     width: 50%;
     border-style: 2px solid;
