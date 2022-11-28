@@ -6,12 +6,31 @@ body {
 	margin-right: auto;
 }
 
-#my_menu {
+.my_menu {
     text-align:right;
 	font-family: 'Source Sans Pro';
     font-weight: 300;
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
     padding: 15px; 
+}
+
+.mymenu ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.mymenu ul li {
+    padding: 15px;
+}
+
+.mymenu ul li a {
+    text-decoration: none;
+    color:#fff;
+}   
+
+.mymenu ul li: hover {
+    background: #aaa;
+    border-radius: 3px;
 }
 
 h1 {
@@ -56,13 +75,21 @@ a {
     text-decoration: none;
 }
 
-.date {
+.dates {
     display: none;
+}
+.mymenu ul li: hover .dates {
+    display: block;
+    position: absolute;
+    background: #000;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .resize {
     width: 50%;
     border-style: 2px solid;
+    border-color: red;
 }
 
 .github {
