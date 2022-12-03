@@ -6,7 +6,7 @@ body {
 	margin-right: auto;
 }
 
-.my_menu {
+#my_menu {
     text-align:right;
 	font-family: 'Source Sans Pro';
     font-weight: 300;
@@ -14,21 +14,21 @@ body {
     padding: 15px; 
 }
 
-.mymenu ul {
+#mymenu ul {
     display: inline-flex;
     list-style: none;
 }
 
-.mymenu ul li {
+#mymenu ul li {
     padding: 15px;
 }
 
-.mymenu ul li a {
+#mymenu ul li a {
     text-decoration: none;
     color:#fff;
 }   
 
-.mymenu ul li: hover {
+#mymenu ul li:hover {
     background: #aaa;
     border-radius: 3px;
 }
@@ -42,7 +42,6 @@ h1 {
 	text-align:left; 
     word-spacing:5px;
 }
-
 
 h2 {
     color: green; 
@@ -78,7 +77,7 @@ a {
 .dates {
     display: none;
 }
-.mymenu ul li: hover .dates {
+#mymenu ul li:hover .dates {
     display: block;
     position: absolute;
     background: #000;
@@ -86,13 +85,7 @@ a {
     margin-left: 15px;
 }
 
-.resize {
-    width: 50%;
-    border-style: 2px solid;
-    border-color: red;
-}
-
-.github {
+#github {
     color: green;
 }
 
