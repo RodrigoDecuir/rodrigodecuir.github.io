@@ -1,0 +1,676 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.23)  17 DEC 2022 08:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-07>
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/03/17 v3.33 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/03/17 v3.33 KOMA-Script package (file load hooks)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/03/17 v3.33 KOMA-Script package (using LaTeX hooks)
+
+
+LaTeX3 Info: Defining command \BeforeFile with sig. 'm' on line 61.
+
+
+LaTeX3 Info: Defining command \AfterFile with sig. 'm' on line 65.
+
+
+LaTeX3 Info: Defining command \BeforeClass with sig. 'm' on line 69.
+
+
+LaTeX3 Info: Defining command \BeforePackage with sig. 'm' on line 73.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfClass with sig. 'smo+m' on line 83.
+
+
+LaTeX3 Info: Defining command \AfterAtEndOfPackage with sig. 'smo+m' on line
+(LaTeX3)     93.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterClass with sig. 'smo+m' on line
+(LaTeX3)     173.
+
+
+LaTeX3 Info: Defining command \AfterClass with sig. '' on line 174.
+
+
+LaTeX3 Info: Defining command \scrlfile@AfterPackage with sig. 'smo+m' on line
+(LaTeX3)     191.
+
+
+LaTeX3 Info: Defining command \AfterPackage with sig. '' on line 192.
+
+
+LaTeX3 Info: Defining command \ReplaceInput with sig. '' on line 193.
+
+
+LaTeX3 Info: Defining command \ReplaceClass with sig. 'mm' on line 196.
+
+
+LaTeX3 Info: Defining command \ReplacePackage with sig. 'mm' on line 199.
+
+
+LaTeX3 Info: Defining command \UnReplaceInput with sig. '' on line 200.
+
+
+LaTeX3 Info: Defining command \UnReplaceClass with sig. 'm' on line 203.
+
+
+LaTeX3 Info: Defining command \UnReplacePackage with sig. 'mm' on line 206.
+
+
+LaTeX3 Info: Defining command \PreventPackageFromLoading with sig. 's+om' on
+(LaTeX3)     line 234.
+
+
+LaTeX3 Info: Defining command \StorePreventPackageFromLoading with sig. 'm' on
+(LaTeX3)     line 242.
+
+
+LaTeX3 Info: Defining command \ResetPreventPackageFromLoading with sig. '' on
+(LaTeX3)     line 247.
+
+
+LaTeX3 Info: Defining command \UnPreventPackageFromLoading with sig. 'sm' on
+(LaTeX3)     line 261.
+
+
+LaTeX3 Info: Defining command \BeforeClosingMainAux with sig. 'om' on line
+(LaTeX3)     274.
+
+
+LaTeX3 Info: Defining command \AfterReadingMainAux with sig. 'om' on line 287.
+
+
+LaTeX3 Info: Defining command \protected@immediate@write with sig. 'm+m+m' on
+(LaTeX3)     line 298.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/03/17 v3.33 KOMA-Script package (logo)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+Skipping: [2021/05/01] Usage of raw option list on input line 252.
+Applying: [0000/00/00] compatibility for LaTeX before 2021/05/01 on input line 
+337.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2021/03/17 v3.33 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box47
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 135.
+Class scrartcl Info: You've used standard option `oneside'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `twoside=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `twoside=false' there
+(scrartcl)           instead of `oneside', too.
+Class scrartcl Info: You've used standard option `final'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `draft=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `draft=false' there
+(scrartcl)           instead of `final', too.
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 223
+9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2021/03/17 v3.33 KOMA-Script font size class option (11pt
+)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2021/03/17 v3.33 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count179
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1741.
+)
+\c@part=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\scr@dte@section@maxnumwidth=\skip53
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4846.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4846.
+\scr@dte@part@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4854.
+\scr@dte@subsection@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4864.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4864.
+\scr@dte@subsubsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4874.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4874.
+\scr@dte@paragraph@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4885.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4885.
+\scr@dte@subparagraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4895.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4895.
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\c@pti@nb@sid@b@x=\box48
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6127.
+
+\scr@dte@figure@maxnumwidth=\skip61
+\c@figure=\count186
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6139.
+
+\scr@dte@table@maxnumwidth=\skip62
+\c@table=\count187
+Class scrartcl Info: Redefining `\numberline' on input line 6303.
+\bibindent=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2021/03/17 v3.33 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2021/03/17 v3.33 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 136.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 216
+2.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box49
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen139
+\ttl@minus=\dimen140
+\ttl@toksa=\toks16
+\titlewidth=\dimen141
+\titlewidthlast=\dimen142
+\titlewidthfirst=\dimen143
+
+
+Package titlesec Warning: Non standard sectioning command \section
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subsubsection
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \paragraph
+(titlesec)                detected. Using default spacing and no format.
+
+
+Package titlesec Warning: Non standard sectioning command \subparagraph
+(titlesec)                detected. Using default spacing and no format.
+
+)
+
+Class scrartcl Warning: Usage of this version of package `titlesec'
+(scrartcl)              with KOMA-Script class `scrartcl' is
+(scrartcl)              not recommended, because the package does not
+(scrartcl)              support KOMA-Script classes, but break them.
+(scrartcl)              If you want to use `titlesec' with KOMA-Script
+(scrartcl)              classes instead of using the KOMA-Script's
+(scrartcl)              user interface to configure the headings of
+(scrartcl)              parts, sections, subsections ... subparagraphs,
+(scrartcl)              please ask the author of `titlesec' for support.
+(scrartcl)              Expect errors like:
+(scrartcl)                - ``Illegal unit of measure (pt inserted).''
+(scrartcl)                - ``Missing number, treated as zero''
+(scrartcl)              after loading `titlesec' on input line 22.
+
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen144
+\ar@mcellbox=\box50
+\extrarowheight=\dimen145
+\NC@list=\toks17
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box51
+)
+\TX@col@width=\dimen146
+\TX@old@table=\dimen147
+\TX@old@col=\dimen148
+\TX@target=\dimen149
+\TX@delta=\dimen150
+\TX@cols=\count188
+\TX@ftn=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\everycr=\toks19
+\minrowclearance=\skip67
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ebgaramond/ebgaramond.sty
+Package: ebgaramond 2020/04/12 (Bob Tennent and autoinst) Style file for EB Gar
+amond fonts.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count189
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 179.
+LaTeX Info: Redefining \textsw on input line 187.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+\MT@toks=\toks22
+\MT@count=\count190
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count191
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip68
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
+))
+LaTeX Font Info:    Trying to load font information for OT1+EBGaramond-OsF on i
+nput line 51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ebgaramond/OT1EBGaramond-OsF.fd
+File: OT1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for OT1/EBGar
+amond-OsF.
+)
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' in size <10.95> not ava
+ilable
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/n' tried instead on 
+input line 51.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 51.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count192
+\l__pdf_internal_box=\box52
+)
+No file template.aux.
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+Package scrbase Info: activating english \contentsname on input line 51.
+Package scrbase Info: activating english \listfigurename on input line 51.
+Package scrbase Info: activating english \listtablename on input line 51.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count193
+\scratchdimen=\dimen152
+\scratchbox=\box53
+\nofMPsegments=\count194
+\nofMParguments=\count195
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen153
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
+\everyMPtoPDFconversion=\toks24
+)
+\c@mv@tabular=\count199
+\c@mv@boldtabular=\count266
+LaTeX Info: Redefining \microtypecontext on input line 51.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 51.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-EBGaramond.cfg
+File: mt-EBGaramond.cfg 2021/02/22 v1.6 microtype config. file: EB Garamond / A
+dobe Garamond (RS)
+)
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' in size <36> not availa
+ble
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/n' tried instead on 
+input line 59.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 36.0pt on input line 59.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <36> not avail
+able
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
+ input line 59.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 36.0pt on input line 59.
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/EBGaramond-OsF/regular/sc/36'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Calculating math sizes for size <36> on input line 59.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <36> not available
+(Font)              size <24.88> substituted on input line 59.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 59.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <36> not available
+(Font)              size <24.88> substituted on input line 59.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <18> not available
+(Font)              size <17.28> substituted on input line 59.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <36> not available
+(Font)              size <24.88> substituted on input line 59.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 59.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <36> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <25.19989> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <18> on input line 59.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/n' in size <12> not availa
+ble
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/n' tried instead on 
+input line 67.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 67.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <12> not avail
+able
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
+ input line 67.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 12.0pt on input line 67.
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/EBGaramond-OsF/regular/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <12.5> not ava
+ilable
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
+ input line 135.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 12.5pt on input line 135.
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/EBGaramond-OsF/regular/sc/12.5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for TS1+EBGaramond-OsF on i
+nput line 135.
+(/usr/share/texlive/texmf-dist/tex/latex/ebgaramond/TS1EBGaramond-OsF.fd
+File: TS1EBGaramond-OsF.fd 2019/10/22 (autoinst) Font definitions for TS1/EBGar
+amond-OsF.
+)
+
+LaTeX Font Warning: Font shape `TS1/EBGaramond-OsF/m/sc' undefined
+(Font)              using `TS1/EBGaramond-OsF/m/n' instead
+(Font)              for symbol `textperiodcentered' on input line 135.
+
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/n' in size <12> not availa
+ble
+(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
+input line 135.
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 135.
+Missing character: There is no m in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no i in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no n in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no u in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no s in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no 0 in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no p in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no t in font EBGaramond-Regular-osf-ts1!
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/m/sc' in size <12> not avail
+able
+(Font)              Font shape `TS1/EBGaramond-OsF/regular/n' tried instead on 
+input line 135.
+LaTeX Font Info:    Font shape `TS1/EBGaramond-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 135.
+Missing character: There is no m in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no i in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no n in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no u in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no s in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no 0 in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no p in font EBGaramond-Regular-osf-ts1!
+Missing character: There is no t in font EBGaramond-Regular-osf-ts1!
+LaTeX Font Info:    Calculating math sizes for size <12.5> on input line 135.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 135.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <12.5> not available
+(Font)              size <12> substituted on input line 135.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <12.5> not available
+(Font)              size <12> substituted on input line 135.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.5> on input line 135.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8.74995> on input line 135.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6.25> on input line 135.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/m/sc' in size <14.4> not ava
+ilable
+(Font)              Font shape `OT1/EBGaramond-OsF/regular/sc' tried instead on
+ input line 135.
+LaTeX Font Info:    Font shape `OT1/EBGaramond-OsF/regular/sc' will be
+(Font)              scaled to size 14.4pt on input line 135.
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/EBGaramond-OsF/regular/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 135
+.
+(/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 48.62001pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting typearea's option
+(scrlayer-scrpage)                `footheight=48.62001pt'.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 13
+5.
+
+[1
+
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     135.
+
+
+LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
+(LaTeX3)     135.
+
+
+(./template.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 11.12pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 8624 strings out of 478855
+ 192399 string characters out of 5858635
+ 655473 words of memory out of 6000000
+ 26097 multiletter control sequences out of 15000+600000
+ 427648 words of font info for 115 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 108i,19n,110p,10603b,623s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_ld6df2.enc}{/u
+sr/share/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_fc2mbn.enc}{/usr/sh
+are/texlive/texmf-dist/fonts/enc/dvips/ebgaramond/ebgm_egoty6.enc}</usr/share/t
+exlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Bold.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/ebgaramond/EBGaramond-Regular.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on template.pdf (1 page, 219971 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 49153 words of extra memory for PDF output out of 51595 (max. 10000000)
+
