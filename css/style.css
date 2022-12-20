@@ -4,6 +4,7 @@ body {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+    font-family: IBM Plex Sans, Roboto, sans-serif;
 }
 
 h1 {
@@ -25,15 +26,6 @@ h2 {
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-h3 {
-    color: green; 
-    font-family: 'Source Sans Pro';
-    font-size: 18px;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');       
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
 p {
 	color: black;
     font-family: 'Source Sans Pro';
@@ -42,64 +34,34 @@ p {
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+.navbar {
+    background-color: #f3f0e8;
 }
-
-#github {
-    color: green;
+.navbar-brand {
+    padding-right: 1em;
 }
-
-#navigation {
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+.as-nav-icon {
+    color: White;
+    font-size: 2em;
+    padding-right: 20px;
 }
-
-#my_menu {
-    color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+.as-intro-text {
+    line-height: 1.8;
 }
-
-footer {
-    text-align:center; 
-    font-size: 14px;
+.as-contact-card {
+    background-color: #FFFFFF;
 }
-
-/* archives.html */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.as-contact-icons {
+    font-size: 2em;
 }
-
-/*
-body {
-    min-height: 100vh;
-    overflow-x: hidden;
+.as-contact-icon-link {
+    color: #526590;
 }
-*/
-#resize {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
-    column-gap: 10px;
-    row-gap: 10px;
+.as-contact-other {
+    background-color: #526590;
+    color: #FFFFFF;
+    font-size: 1em;
 }
-
-img {
-    width: 300px;
-    height 300px;
-    object-fit: cover;
-    object-position: center;
+.as-photo-container {
+    align-items: flex-start;
 }
