@@ -9,59 +9,53 @@ body {
 
 h1 {
 	color: black;
-	font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', serif;
     font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2);
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 	text-align:left; 
     word-spacing:5px;
 }
 
-h2 {
-    color: green; 
-    font-family: 'Source Sans Pro';
-    font-size: 22px;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');       
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
-p {
-	color: black;
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+.nav {
+    width: 80%;
+    height: 80px;
 }
 
 .navbar {
-    background-color: #f3f0e8;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
 }
-.navbar-brand {
-    padding-right: 1em;
+
+.navbar .nav-item {
+    float: right;
+    margin-top: 30px;
 }
-.as-nav-icon {
-    color: White;
-    font-size: 2em;
-    padding-right: 20px;
+
+.navbar .nav-item .nav-link {
+    width: 150px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
 }
-.as-intro-text {
-    line-height: 1.8;
+
+.nav-item:hover {
+    text-decoration: underline;
 }
-.as-contact-card {
-    background-color: #FFFFFF;
+
+.navbar .nav-item .navbar .nav-item {
+    float: none;
+    background: #f3f0e8;
 }
-.as-contact-icons {
-    font-size: 2em;
+
+.navbar .nav-item .navbar {
+    display: none;
 }
-.as-contact-icon-link {
-    color: #526590;
-}
-.as-contact-other {
-    background-color: #526590;
-    color: #FFFFFF;
-    font-size: 1em;
-}
-.as-photo-container {
-    align-items: flex-start;
+
+.navbar .nav-item:hover .navbar {
+    display: block;
 }
