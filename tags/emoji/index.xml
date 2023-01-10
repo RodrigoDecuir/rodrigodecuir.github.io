@@ -5,10 +5,10 @@
         <description>emoji - Tag - Rodrigo Decuir</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://rodrigodecuir.me/tags/emoji/" rel="self" type="application/rss+xml" /><item>
     <title>Emoji Support</title>
-    <link>https://rodrigodecuir.me/writing/emoji-support/</link>
+    <link>https://rodrigodecuir.me/about/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>https://rodrigodecuir.me/writing/emoji-support/</guid>
+    <guid>https://rodrigodecuir.me/about/emoji-support/</guid>
     <description><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>]]></description>
 </item>
 </channel>
