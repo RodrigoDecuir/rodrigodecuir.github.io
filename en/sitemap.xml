@@ -2,20 +2,19 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-basics/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-content/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-built-in-shortcodes/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-extended-shortcodes/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/basic-markdown-syntax/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-mermaid-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/emoji-support/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-echarts-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-mapbox-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-music-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-bilibili-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/theme-documentation-typeit-shortcode/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/about/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/categories/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://rodrigodecuir.me/theme-documentation-basics/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-content/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-built-in-shortcodes/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-extended-shortcodes/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/basic-markdown-syntax/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-mermaid-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/emoji-support/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-echarts-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-mapbox-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-music-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-bilibili-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/theme-documentation-typeit-shortcode/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/categories/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="es"
                         href="https://rodrigodecuir.me/es/categories/"
@@ -24,7 +23,8 @@
                     hreflang="en"
                     href="https://rodrigodecuir.me/categories/"
                     /></url><url>
-            <loc>https://rodrigodecuir.me/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://rodrigodecuir.me/posts/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="es"
                         href="https://rodrigodecuir.me/es/"
@@ -33,7 +33,7 @@
                     hreflang="en"
                     href="https://rodrigodecuir.me/"
                     /></url><url>
-            <loc>https://rodrigodecuir.me/tags/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://rodrigodecuir.me/tags/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="es"
                         href="https://rodrigodecuir.me/es/tags/"
@@ -42,12 +42,12 @@
                     hreflang="en"
                     href="https://rodrigodecuir.me/tags/"
                     /></url><url>
-            <loc>https://rodrigodecuir.me/tags/markdown/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/tags/shortcodes/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/tags/html/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/categories/markdown/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/tags/emoji/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://rodrigodecuir.me/posts/</loc><lastmod>2023-01-10T10:35:54-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/tags/markdown/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/tags/shortcodes/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/tags/html/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/categories/markdown/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/tags/emoji/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://rodrigodecuir.me/about/</loc><lastmod>2023-01-10T10:54:06-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://rodrigodecuir.me/categories/documentation/</loc><lastmod>2023-01-10T10:24:13-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://rodrigodecuir.me/tags/content/</loc><lastmod>2023-01-10T10:24:13-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://rodrigodecuir.me/tags/installation/</loc><lastmod>2023-01-10T10:24:13-06:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>

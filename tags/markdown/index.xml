@@ -5,18 +5,18 @@
         <description>Markdown - Tag - Rodrigo Decuir</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</lastBuildDate><atom:link href="https://rodrigodecuir.me/tags/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>Theme Documentation - Content</title>
-    <link>https://rodrigodecuir.me/about/theme-documentation-content/</link>
+    <link>https://rodrigodecuir.me/theme-documentation-content/</link>
     <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>https://rodrigodecuir.me/about/theme-documentation-content/</guid>
+    <guid>https://rodrigodecuir.me/theme-documentation-content/</guid>
     <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>LoveIt</strong> theme.</p>]]></description>
 </item>
 <item>
     <title>Basic Markdown Syntax</title>
-    <link>https://rodrigodecuir.me/about/basic-markdown-syntax/</link>
+    <link>https://rodrigodecuir.me/basic-markdown-syntax/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>Dillon</author>
-    <guid>https://rodrigodecuir.me/about/basic-markdown-syntax/</guid>
+    <guid>https://rodrigodecuir.me/basic-markdown-syntax/</guid>
     <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item>
 </channel>
