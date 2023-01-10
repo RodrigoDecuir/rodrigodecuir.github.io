@@ -9,53 +9,19 @@ body {
 
 h1 {
 	color: black;
-    font-family: 'Source Sans Pro', serif;
-    font-weight: 300;
-	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7qsDJT9g.woff2);
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-	text-align:left; 
+    font-family: IBM Plex Sans, Roboto, sans-serif;
+	text-align:left;
     word-spacing:5px;
 }
 
-.nav {
-    width: 80%;
-    height: 80px;
+ul {
+
 }
 
-.navbar {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
+ul li {
+
 }
 
-.navbar .nav-item {
-    float: right;
-    margin-top: 30px;
-}
+ul li a {
 
-.navbar .nav-item .nav-link {
-    width: 150px;
-    color: black;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    padding: 6px;
-}
-
-.nav-item:hover {
-    text-decoration: underline;
-}
-
-.navbar .nav-item .navbar .nav-item {
-    float: none;
-    background: #f3f0e8;
-}
-
-.navbar .nav-item .navbar {
-    display: none;
-}
-
-.navbar .nav-item:hover .navbar {
-    display: block;
 }
