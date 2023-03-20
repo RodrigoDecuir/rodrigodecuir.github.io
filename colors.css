@@ -1,4 +1,5 @@
-	--background: #263238;
+:root {	
+    --background: #263238;
 	--foreground: #eeffff;
 	--color0: #2e3c43;
 	--color1: #f07178;
@@ -16,3 +17,4 @@
 	--color13: #c792ea;
 	--color14: #89ddff;
 	--color15: #eeffff;
+}
