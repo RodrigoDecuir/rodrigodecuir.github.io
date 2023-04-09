@@ -1,0 +1,12 @@
+bin/
+tmp/
+c/
+.DS*
+*jpg~
+*png~
+*gif~
+*.kra
+
+*theme
+*snarf
+*rom
