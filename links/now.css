@@ -39,4 +39,4 @@
 * footer > * { display:inline-block;margin-right:5px }
 * footer img { margin:0 0 -10px 0;width:30px } 
 /* chriszabriskie breakline */
-hr { border: 0;height: 1px;background: #333;background-image: linear-gradient(to right, #333, #ccc, #333)}
+hr { border: 0;height: 1px;background: #ccc;background-image: linear-gradient(to right, #ccc, #333, #ccc)}
