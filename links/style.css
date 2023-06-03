@@ -41,11 +41,3 @@ a {
     color: #55bdfd;
     text-decoration: none;
 }
-
-a:link {
-    color: var(--foreground);
-}
-
-a:hover {
-    font-weight: 700;
-}
