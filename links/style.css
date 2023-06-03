@@ -39,3 +39,22 @@ a {
     color: #55bdfd;
     text-decoration: none;
 }
+
+@import "./colors.css";
+@import "/home/.cache/colors.css";
+
+a:link {
+    color: var(--foreground);
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+a:visited {
+    color: var(--foreground);
+}
+
+.cat {
+    font-weight: 700;
+}
