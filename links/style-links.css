@@ -10,7 +10,7 @@ html {
 .box {
     font-size: x-large;
     width: 1400px;
-    max-width: 600px;
+    /*max-width: 600px;*/
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
