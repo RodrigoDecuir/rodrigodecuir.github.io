@@ -1,7 +1,7 @@
 @import "./colors.css";
 @import "/home/.cache/colors.css"
 
-* font-size: 20px;
+* font-size: x-large;
 
 html {
     font-family: 'Iosevka', monospace;
@@ -11,7 +11,7 @@ html {
 
 .box {
     width: 1000px;
-    max-width: 600px;
+    max-width: 1000px;
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
