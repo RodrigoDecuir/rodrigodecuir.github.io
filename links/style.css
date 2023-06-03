@@ -7,7 +7,7 @@ html {
     background-attachment: fixed;
 }
 
-body {
+.menu {
     color: white;
     background: #20211F;
     width: 1000px;
@@ -21,7 +21,7 @@ body {
     transition: box-shadow 0.7s;
 }
 
-body:hover {
+.menu:hover {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);  
 }
 
@@ -41,3 +41,4 @@ a {
     color: #55bdfd;
     text-decoration: none;
 }
+
