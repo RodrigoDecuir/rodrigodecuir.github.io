@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 html {
     background-color: #504A44;
     background-image: url("https://live.staticflickr.com/2765/4357276752_e0c3dd7f23_b.jpg");
@@ -40,10 +42,6 @@ a {
     text-decoration: none;
 }
 
-/*
-@import "./colors.css";
-@import "/home/.cache/colors.css";
-
 a:link {
     color: var(--foreground);
 }
@@ -51,12 +49,3 @@ a:link {
 a:hover {
     font-weight: 700;
 }
-
-a:visited {
-    color: var(--foreground);
-}
-
-.cat {
-    font-weight: 700;
-}
-*/
