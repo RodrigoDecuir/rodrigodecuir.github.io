@@ -34,8 +34,8 @@ html {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.7s;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 25;
+    bottom: 25;
     left: 0;
     right: 0;
 }
