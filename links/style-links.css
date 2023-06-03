@@ -1,9 +1,7 @@
 @import "./colors.css";
 @import "/home/.cache/colors.css"
 
-* {
-	font-size: 20px;
-}
+* {font-size: 20px;}
 
 html {
     /*font-size: 18px;*/
@@ -11,13 +9,11 @@ html {
     /*font-weight: black;*/
     background-color: var(--background);
     color: var(--foreground);
-    background-image: url("https://live.staticflickr.com/2765/4357276752_e0c3dd7f23_b.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
 }
 
 .box {
-    width: 700px;
+    width: 1000px;
+    max-width: 600px;
     right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
