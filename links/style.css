@@ -7,6 +7,20 @@ html {
     background-attachment: fixed;
 }
 
+/*.menu {
+    color: white;
+    background: #20211F;
+    width: 1000px;
+    max-width: 90%; 
+    margin: 25px auto 25px auto;
+    padding: 30px;
+    border: solid #504A44 3px;
+    font-family: monospace;
+    font-size: xx-large;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.7s;
+}*/
+
 .menu {
     color: white;
     background: #20211F;
@@ -19,6 +33,11 @@ html {
     font-size: xx-large;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.7s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .menu:hover {
