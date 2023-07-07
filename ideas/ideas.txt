@@ -1,0 +1,7 @@
+- processing sheets
+- reviews section
+- kind of about me page
+- scrabble effect
+- scrollbar
+- seccion de apuntes fc unam
+- usar https://prismjs.com/
