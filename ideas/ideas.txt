@@ -5,3 +5,4 @@
 - scrollbar
 - seccion de apuntes fc unam
 - usar https://prismjs.com/
+- distro araki
