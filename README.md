@@ -1,1 +1,0 @@
-<img src="https://user-images.githubusercontent.com/110834031/204106494-aebeba62-ef16-4612-8a77-bede1eb8b918.JPG" alt="Cestrum Nocturnum" title="Cestrum Nocturnum" width="30%" height="30%" loading="lazy"/> 
