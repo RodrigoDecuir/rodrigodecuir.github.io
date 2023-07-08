@@ -6,3 +6,11 @@
 - seccion de apuntes fc unam
 - usar https://prismjs.com/
 - distro araki
+- usar iframes para no abrir paginas externas
+- ver si se puede habilitar la opcion de poner en pantalla completa el contenido de la caja
+- procedural graphics trees and circuit boards maciej konieczny
+- programar un bot de discord o algo parecido
+- guia de canek
+- fondo de la fac de ciencias
+- fondo de arte procedimental, en el que al llenarse el fondo, comienza a parpadear lentamente
+las lineas y puntos casi como si fueran luciernagas
