@@ -14,3 +14,6 @@
 - fondo de la fac de ciencias
 - fondo de arte procedimental, en el que al llenarse el fondo, comienza a parpadear lentamente
 las lineas y puntos casi como si fueran luciernagas
+-funcion para incluir gif aleatorio
+- pagina con un bot de albures
+- falta leer el libro de miros
