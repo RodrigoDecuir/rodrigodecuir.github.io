@@ -1,0 +1,6 @@
+---
+layout: fancy
+title: probabilidad
+---
+
+# Probabilidad I 

@@ -1,0 +1,24 @@
+<script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+</script>
+
+<Seo title="Rodrigo Decuir" description="" />
+
+<div>
+	<h1 class="montserrat">Rodrigo Decuir</h1>
+	<p class="manrope">
+		I am a computer science student at National Autonomous University of Mexico (UNAM) interested in
+		machine learning, systems and interaction design. <br /> <br />
+		My hobbies include
+		<a
+			class="link"
+			target="_blank"
+			href="https://lightroom.adobe.com/shares/c33fcb0b718946699d17a74d18ccb447">photography</a
+		>
+		and voleyball. <br /><br />
+		This is my <a class="link" target="_blank" href="">CV</a>. If you have any questions or would
+		like to chat, feel free to reach out (<a class="link" href="mailto:ojo@ciencias.unam.mx"
+			>email</a
+		>).
+	</p>
+</div>

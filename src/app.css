@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap'); /*Manrope*/
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@400;600&family=Montserrat+Alternates&display=swap'); /*Montse*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	::selection {
+		@apply bg-neutral-200;
+	}
+}
+
+@layer components {
+	.layout-md {
+		@apply mx-auto max-w-screen-lg px-4;
+	}
+	.link {
+		@apply underline decoration-neutral-400 underline-offset-[3px];
+		@apply transition-colors hover:text-black hover:decoration-blue-400;
+	}
+	.manrope {
+		@apply text-xl;
+		font-family: 'Manrope', sans-serif;
+		font-weight: 400;
+	}
+	.montserrat {
+		@apply pb-6 text-3xl;
+		font-family: 'Montserrat Alternates', sans-serif;
+		font-weight: 400;
+	}
+	.nav {
+		@apply absolute right-[10px] top-[10px] z-10 rounded border p-1 shadow-md backdrop-blur-md;
+	}
+}
+
+/*
+html {
+	@apply motion-safe:scroll-smooth;
+}
+
+body {
+	@apply py-12 text-neutral-700 antialiased sm:py-24 md:py-32;
+}
+
+a {
+	@apply decoration-neutral-400;
+	@apply transition-colors hover:text-black;
+}
+*/
