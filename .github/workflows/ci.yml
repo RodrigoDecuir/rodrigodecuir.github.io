@@ -1,4 +1,4 @@
-name: DEPLO
+name: CI
 
 on:
   push:
