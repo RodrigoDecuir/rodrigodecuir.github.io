@@ -16,7 +16,8 @@
 {/if}
 
 {#if isDropdownVisible}
-	<div class="nav fixed" on:mouseleave={hideDropdown}>
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<div class="nav fixed:" on:mouseleave={hideDropdown}>
 		<h1>Table of Contents</h1>
 		<nav>
 			<ul>
