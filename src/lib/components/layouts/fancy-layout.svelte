@@ -3,7 +3,7 @@
 	import './light.css';
 </script>
 
-<Seo title="Rodrigo Decuir &mdash;" />
+<Seo title="Rodrigo Decuir &mdash;" description="adios mundo" />
 
 <main class="markdown-body">
 	<slot />
