@@ -1,0 +1,6 @@
+---
+layout: fancy
+title: Programacion Lineal
+---
+
+# Programación Lineal
