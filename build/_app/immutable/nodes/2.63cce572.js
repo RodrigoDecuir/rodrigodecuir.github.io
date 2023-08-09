@@ -1,6 +1,0 @@
-import{s as m,n as u}from"../chunks/scheduler.3fb37d42.js";import{S as p,i as f,r as d,s as h,g as _,u as b,c as g,h as v,x as y,v as $,a as r,d as x,t as M,f as c,w as k}from"../chunks/index.d2400dde.js";import{S}from"../chunks/Seo.9fd5213e.js";function w(l){let t,n,a,i=`<h1 class="montserrat">Rodrigo Decuir</h1> <p class="manrope">I am a computer science student at National Autonomous University of Mexico (UNAM) interested in
-		machine learning, systems and interaction design. <br/> <br/>
-		My hobbies include
-		<a class="link" target="_blank" href="https://lightroom.adobe.com/shares/c33fcb0b718946699d17a74d18ccb447">photography</a>
-		and voleyball. <br/><br/>
-		This is my CV. If you have any questions or would like to chat, feel free to reach out (<a class="link" href="mailto:ojo@ciencias.unam.mx">email</a>).</p>`,s;return t=new S({props:{title:"Rodrigo Decuir",description:""}}),{c(){d(t.$$.fragment),n=h(),a=_("div"),a.innerHTML=i},l(e){b(t.$$.fragment,e),n=g(e),a=v(e,"DIV",{"data-svelte-h":!0}),y(a)!=="svelte-bofcec"&&(a.innerHTML=i)},m(e,o){$(t,e,o),r(e,n,o),r(e,a,o),s=!0},p:u,i(e){s||(x(t.$$.fragment,e),s=!0)},o(e){M(t.$$.fragment,e),s=!1},d(e){e&&(c(n),c(a)),k(t,e)}}}class T extends p{constructor(t){super(),f(this,t,null,w,m,{})}}export{T as component};

@@ -17,7 +17,10 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter({
 			fallback: 'index.html'
-		})
+		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/rodrigodecuir.github.io' : ''
+		}
 	}
 };
 

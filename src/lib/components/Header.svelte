@@ -8,6 +8,7 @@
 	function hideDropdown() {
 		isDropdownVisible = false;
 	}
+	import { base } from '$app/paths';
 </script>
 
 <img src="./assets/images/ani.gif" alt="ojo" />
@@ -21,9 +22,9 @@
 		<h1>Table of Contents</h1>
 		<nav>
 			<ul>
-				<li><a href="/">About me</a></li>
-				<li><a href="/projects">Projects</a></li>
-				<li><a href="/writing">Writing</a></li>
+				<li><a href="{base}/">About me</a></li>
+				<li><a href="{base}/projects">Projects</a></li>
+				<li><a href="{base}/writing">Writing</a></li>
 			</ul>
 		</nav>
 	</div>
