@@ -64,7 +64,6 @@ declare module '$env/static/private' {
 	export const USERNAME: string;
 	export const LANG: string;
 	export const LS_COLORS: string;
-	export const npm_package_version: string;
 	export const KEYTIMEOUT: string;
 	export const M2_HOME: string;
 	export const QTINC: string;
@@ -177,7 +176,6 @@ declare module '$env/dynamic/private' {
 		USERNAME: string;
 		LANG: string;
 		LS_COLORS: string;
-		npm_package_version: string;
 		KEYTIMEOUT: string;
 		M2_HOME: string;
 		QTINC: string;

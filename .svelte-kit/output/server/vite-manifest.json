@@ -1,0 +1,151 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_Seo.js": {
+    "file": "chunks/Seo.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_fancy-layout.js": {
+    "css": [
+      "_app/immutable/assets/fancy-layout.81d89a9e.css"
+    ],
+    "file": "chunks/fancy-layout.js",
+    "imports": [
+      "_ssr.js",
+      "_Seo.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "fancy-layout.css": {
+    "file": "_app/immutable/assets/fancy-layout.81d89a9e.css",
+    "src": "fancy-layout.css"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_internal.js",
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+error.svelte"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.08e8f34d.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.08e8f34d.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Seo.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/license/+page.svelte": {
+    "file": "entries/pages/license/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/license/+page.svelte"
+  },
+  "src/routes/links/+page.svelte": {
+    "file": "entries/pages/links/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_Seo.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/links/+page.svelte"
+  },
+  "src/routes/projects/+page.svx": {
+    "file": "entries/pages/projects/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_Seo.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/projects/+page.svx"
+  },
+  "src/routes/writing/+page.svx": {
+    "file": "entries/pages/writing/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_fancy-layout.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/writing/+page.svx"
+  },
+  "src/routes/writing/aplicadas/+page.svx": {
+    "file": "entries/pages/writing/aplicadas/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_fancy-layout.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/writing/aplicadas/+page.svx"
+  },
+  "src/routes/writing/automatas/+page.svx": {
+    "file": "entries/pages/writing/automatas/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_fancy-layout.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/writing/automatas/+page.svx"
+  },
+  "src/routes/writing/lineal/+page.svx": {
+    "file": "entries/pages/writing/lineal/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_fancy-layout.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/writing/lineal/+page.svx"
+  },
+  "src/routes/writing/probabilidad/+page.svx": {
+    "file": "entries/pages/writing/probabilidad/_page.svx.js",
+    "imports": [
+      "_ssr.js",
+      "_fancy-layout.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/writing/probabilidad/+page.svx"
+  }
+}

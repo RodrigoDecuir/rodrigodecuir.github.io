@@ -33,18 +33,3 @@
 		@apply absolute right-[10px] top-[10px] z-10 rounded border p-1 shadow-md backdrop-blur-md;
 	}
 }
-
-/*
-html {
-	@apply motion-safe:scroll-smooth;
-}
-
-body {
-	@apply py-12 text-neutral-700 antialiased sm:py-24 md:py-32;
-}
-
-a {
-	@apply decoration-neutral-400;
-	@apply transition-colors hover:text-black;
-}
-*/
