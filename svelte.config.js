@@ -19,7 +19,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/rodrigodecuir.github.io' : ''
+			base: process.env.NODE_ENV === 'production' ? '/rodrigodecuir.netlify.app' : ''
 		}
 	}
 };
