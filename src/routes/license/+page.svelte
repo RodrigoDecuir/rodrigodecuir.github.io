@@ -1,3 +1,9 @@
+<script lang="ts">
+	import Seo from '$lib/components/Seo.svelte';
+</script>
+
+<Seo title="Rodrigo Decuir &mdash; license" description="" />
+
 <h1 class="montserrat">License</h1>
 <div class="manrope">
 	<p>

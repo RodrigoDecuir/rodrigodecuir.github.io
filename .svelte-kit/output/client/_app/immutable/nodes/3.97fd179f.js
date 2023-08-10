@@ -1,0 +1,9 @@
+import{s as v,n as x}from"../chunks/scheduler.3fb37d42.js";import{S as $,i as y,r as C,s as p,g as h,u as S,c as d,h as b,x as f,k as _,v as k,a as l,d as T,t as L,f as c,w as Y}from"../chunks/index.d2400dde.js";import{S as w}from"../chunks/Seo.9fd5213e.js";function A(g){let t,i,s,m="License",n,a,u=`<p>The license applies to all the <b>documented projects, the projects themselves and their assets</b>. The
+		<a class="link" href="https://github.com/rodrigodecuir/rodrigodecuir.github.io" target="_blank">platform code</a>
+		is under the <b>MIT License</b>. The
+		<a class="link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">assets and text content</a>
+		is under the <b>BY-NC-SA4.0 License</b>.</p> <br/> <p><i>You are free to</i>: <b>Share</b>: copy and redistribute the material in any medium or
+		format.
+		<b>Adapt</b>: remix, transform, and build upon the material.</p> <br/> <p><i>Under the following terms</i>: <b>Attribution</b>: You must give appropriate credit.
+		<b>NonCommercial</b>: You may not use the material for commercial purposes. <b>ShareAlike</b>:
+		You must distribute your contributions under the same license.</p>`,o;return t=new w({props:{title:"Rodrigo Decuir — license",description:""}}),{c(){C(t.$$.fragment),i=p(),s=h("h1"),s.textContent=m,n=p(),a=h("div"),a.innerHTML=u,this.h()},l(e){S(t.$$.fragment,e),i=d(e),s=b(e,"H1",{class:!0,"data-svelte-h":!0}),f(s)!=="svelte-8w6ngp"&&(s.textContent=m),n=d(e),a=b(e,"DIV",{class:!0,"data-svelte-h":!0}),f(a)!=="svelte-jizfcg"&&(a.innerHTML=u),this.h()},h(){_(s,"class","montserrat"),_(a,"class","manrope")},m(e,r){k(t,e,r),l(e,i,r),l(e,s,r),l(e,n,r),l(e,a,r),o=!0},p:x,i(e){o||(T(t.$$.fragment,e),o=!0)},o(e){L(t.$$.fragment,e),o=!1},d(e){e&&(c(i),c(s),c(n),c(a)),Y(t,e)}}}class D extends ${constructor(t){super(),y(this,t,null,A,v,{})}}export{D as component};
