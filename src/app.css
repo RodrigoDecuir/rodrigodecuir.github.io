@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap'); /*Manrope*/
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@400;600&family=Montserrat+Alternates&display=swap'); /*Montse*/
+@font-face {
+	font-family: aller;
+	font-weight: normal;
+	font-style: normal;
+	src: url(./assets/fonts/aller/aller.woff2) format('woff2'),
+		url(./assets/fonts/aller/aller.woff) format('woff'),
+		url(./assets/fonts/aller/aller.ttf) format('truetype'),
+		url(./assets/fonts/aller/aller.otf) format('opentype');
+}
+
+@font-face {
+	font-family: riffic;
+	font-weight: normal;
+	font-style: normal;
+	src: url(./assets/fonts/riffic/riffic.woff2) format('woff2'),
+		url(./assets/fonts/riffic/riffic.woff) format('woff'),
+		url(./assets/fonts/riffic/riffic.otf) format('opentype'),
+		url(./assets/fonts/riffic/riffic.ttf) format('truetype');
+}
 
 @tailwind base;
 @tailwind components;
@@ -29,7 +48,23 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-weight: 400;
 	}
+	.aller {
+		font-family: aller;
+		font-weight: normal;
+		font-style: normal;
+	}
+	.riffic {
+		font-family: riffic;
+		font-weight: normal;
+		font-style: normal;
+	}
 	.nav {
-		@apply absolute right-[10px] top-[10px] z-10 rounded border p-1 shadow-md backdrop-blur-md;
+		@apply fixed right-[0px] rounded border bg-white p-1 shadow-md;
+	}
+	.index {
+		@apply fixed rounded border bg-white p-1 shadow-md;
+	}
+	.image {
+		@apply fixed left-1/4 rounded border bg-white p-0.5 shadow-md;
 	}
 }

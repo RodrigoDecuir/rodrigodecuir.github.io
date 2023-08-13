@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/writing/programacion-lineal/+page.svx";
+export { default as component } from "../../../../src/routes/(app)/projects/+page.svx";

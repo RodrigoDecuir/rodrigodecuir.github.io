@@ -1,0 +1,22 @@
+---
+layout: fancy
+title: writing
+---
+
+# Notes
+
+* _semestre 2024-1_
+
+    * [Probabilidad I](writing/probabilidad)
+
+    * [Álgebra Lineal I](writing/lineal)
+
+    * [Matemáticas para las Ciencias Aplicadas III](writing/aplicadas)
+
+    * [Autómatas y Lenguajes Formales](writing/automatas)
+
+# Thoughts
+
+
+# Sketches
+

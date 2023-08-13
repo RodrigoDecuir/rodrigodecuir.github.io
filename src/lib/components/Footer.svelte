@@ -12,17 +12,13 @@
 				src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png"
 				alt="linkedin"
 			/>
-		</a>&nbsp<a class="hover:link" href="/license">©2023</a>
+		</a>&nbsp©<a class="hover:link" href="/license">2023</a>
 	</p>
 </footer>
 
 <style lang="postcss">
 	footer {
-		@apply mt-auto flex justify-center p-6;
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
+		@apply flex justify-center p-6;
 	}
 	p {
 		@apply flex justify-between text-sm text-neutral-600;

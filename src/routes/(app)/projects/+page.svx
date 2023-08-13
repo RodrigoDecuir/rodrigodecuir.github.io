@@ -1,0 +1,23 @@
+---
+layout: default
+title: projects
+---
+
+# Projects
+
+2 columnas
+
+
+col 1
+
+Doki Doki Literature Club > November 2023
+Python Svelte Art Vision
+
+A psychological horror visual novel made in Ren'Py.
+
+Links: GitHub, Website
+
+col 2
+
+imagen
+

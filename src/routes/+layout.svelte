@@ -4,15 +4,17 @@
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<!-- Header -->
-<Header />
+<div class="flex flex-col h-screen justify-between">
+	<!-- Header -->
+	<Header />
 
-<div class="layout-md">
 	<main>
 		<!-- Black Hole for content -->
 		<slot />
 	</main>
 
+	<!--<div class="layout-md">-->
 	<!-- Footer -->
 	<Footer />
+	<!--</div>-->
 </div>

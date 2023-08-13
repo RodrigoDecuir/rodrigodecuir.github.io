@@ -5,6 +5,6 @@
 
 <Seo title="Rodrigo Decuir &mdash; {title}" description="hola mundo" />
 
-<main>
+<main class="">
 	<slot />
 </main>

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Seo from '$lib/components/Seo.svelte';
-	import './light.css';
+	import './fancy.css';
 	export let title;
 </script>
 

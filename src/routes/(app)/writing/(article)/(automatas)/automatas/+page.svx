@@ -1,0 +1,6 @@
+---
+layout: fancy
+title: automatas
+---
+
+# Autómatas y Lenguajes Formales
