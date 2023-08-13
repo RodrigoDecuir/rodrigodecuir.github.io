@@ -21,14 +21,10 @@
 		<nav>
 			<ul>
 				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;<a href="">Integral</a>&nbsp;
+					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<!--<a href="">-->Integral<!--</a>-->&nbsp;
 				</li>
-				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;<a href="">Diferencial</a>
-				</li>
-				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;<a href="">Writing</a>
-				</li>
+				<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Diferencial</li>
+				<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Writing</li>
 			</ul>
 		</nav>
 	</div>

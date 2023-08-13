@@ -65,6 +65,6 @@
 		@apply fixed rounded border bg-white p-1 shadow-md;
 	}
 	.image {
-		@apply fixed left-1/4 rounded border bg-white p-0.5 shadow-md;
+		@apply fixed left-1/4 rounded border bg-white p-[.4%] shadow-md;
 	}
 }

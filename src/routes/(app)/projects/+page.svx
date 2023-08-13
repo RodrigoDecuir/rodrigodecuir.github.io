@@ -5,19 +5,26 @@ title: projects
 
 # Projects
 
-2 columnas
+## Cumbancha
 
+``HTML`` ``Vanilla CSS``
+
+[Website](https://rodrigodecuir.github.io/cumbancha), [GitHub](https://github.com/rodrigodecuir/cumbancha)
+
+A restaurant website made with HTML and Vanilla CSS.
+<!--
 
 col 1
 
-Doki Doki Literature Club > November 2023
-Python Svelte Art Vision
+Project_name > Month year
+Tags
 
-A psychological horror visual novel made in Ren'Py.
+Description.
 
 Links: GitHub, Website
 
 col 2
 
-imagen
+image
+-->
 

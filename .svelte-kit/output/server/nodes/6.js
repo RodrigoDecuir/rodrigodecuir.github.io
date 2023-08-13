@@ -2,7 +2,7 @@
 
 export const index = 6;
 let component_cache;
-export const component = async () => component_cache ??= (await import('../entries/pages/writing/_page.svx.js')).default;
-export const imports = ["_app/immutable/nodes/6.3f4bc1a3.js","_app/immutable/chunks/scheduler.3fb37d42.js","_app/immutable/chunks/index.d2400dde.js","_app/immutable/chunks/spread.8a54911c.js","_app/immutable/chunks/fancy-layout.65d25f2c.js","_app/immutable/chunks/Seo.9fd5213e.js"];
-export const stylesheets = ["_app/immutable/assets/fancy-layout.646fd65c.css"];
+export const component = async () => component_cache ??= (await import('../entries/pages/(app)/writing/(article)/(lineal)/_layout@.svelte.js')).default;
+export const imports = ["_app/immutable/nodes/6.b2b8779d.js","_app/immutable/chunks/scheduler.a0900d10.js","_app/immutable/chunks/index.93b4fa39.js","_app/immutable/chunks/Index.d9d0a482.js"];
+export const stylesheets = ["_app/immutable/assets/Index.f4bc11c5.css"];
 export const fonts = [];

@@ -1,6 +1,6 @@
 import { c as create_ssr_component, v as validate_component } from "./ssr.js";
 import { S as Seo } from "./Seo.js";
-const light = "";
+const fancy = "";
 const Fancy_layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { title } = $$props;
   if ($$props.title === void 0 && $$bindings.title && title !== void 0)

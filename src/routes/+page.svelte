@@ -7,8 +7,8 @@
 <a href="http://wrasse.pw/joel/icons/"><img src="./assets/images/ani.gif" alt="ojo" /></a>
 
 <div class="layout-md">
-	<h1 class="montserrat"><b>Rodrigo Decuir</b></h1>
-	<p class="manrope text-2xl text-[#424242]">
+	<h1 class="montserrat lg:font-bold md:font-bold">Rodrigo Decuir</h1>
+	<p class="manrope lg:text-2xl md:text-2xl text-[#424242]">
 		I am a computer science student at National Autonomous University of Mexico (UNAM) interested in
 		machine learning, systems and interaction design. <br /> <br />
 		My hobbies include
