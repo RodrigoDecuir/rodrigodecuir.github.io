@@ -11,13 +11,15 @@
 </script>
 
 {#if !isDropdownVisible}
-	<button class="nav px-2" on:mouseenter={showDropdown}>Table of Contents</button>
+	<button class="nav px-2 sm:on:touchstart={showDropdown}" on:mouseenter={showDropdown}
+		>Table of Contents</button
+	>
 {/if}
 
 {#if isDropdownVisible}
 	<!-- svelte-ignore a11y-no-static-element-interactions &#9776;-->
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
-	<div class="nav" on:click={hideDropdown} on:mouseleave={hideDropdown}>
+	<div class="nav sm:on:touchend={hideDropdown}" on:mouseleave={hideDropdown}>
 		<h1>Table of Contents</h1>
 		<nav>
 			<ul>

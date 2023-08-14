@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap'); /*Manrope*/
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@400;600&family=Montserrat+Alternates&display=swap'); /*Montse*/
-@font-face {
+/*@font-face {
 	font-family: aller;
 	font-weight: normal;
 	font-style: normal;
@@ -18,7 +18,7 @@
 		url(./assets/fonts/riffic/riffic.woff) format('woff'),
 		url(./assets/fonts/riffic/riffic.otf) format('opentype'),
 		url(./assets/fonts/riffic/riffic.ttf) format('truetype');
-}
+}*/
 
 @tailwind base;
 @tailwind components;
@@ -48,7 +48,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-weight: 400;
 	}
-	.aller {
+	/*.aller {
 		font-family: aller;
 		font-weight: normal;
 		font-style: normal;
@@ -57,7 +57,7 @@
 		font-family: riffic;
 		font-weight: normal;
 		font-style: normal;
-	}
+	}*/
 	.nav {
 		@apply fixed right-[0px] rounded border bg-white p-1 shadow-md;
 	}
