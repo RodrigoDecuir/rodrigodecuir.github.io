@@ -16,7 +16,8 @@
 
 {#if isDropdownVisible}
 	<!-- svelte-ignore a11y-no-static-element-interactions &#9776;-->
-	<div class="nav" on:mouseout={hideDropdown}>
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div class="nav" on:click={hideDropdown} on:mouseleave={hideDropdown}>
 		<h1>Table of Contents</h1>
 		<nav>
 			<ul>

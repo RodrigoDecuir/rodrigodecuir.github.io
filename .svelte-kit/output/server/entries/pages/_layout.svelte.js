@@ -7,7 +7,7 @@ const css$1 = {
 };
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
-  return `${`<button class="nav px-2" data-svelte-h="svelte-1m8rnoj">Table of Contents</button>`} ${``}`;
+  return `${`<button class="nav px-2" data-svelte-h="svelte-c1ojql">Table of Contents</button>`} ${``}`;
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {
