@@ -21,10 +21,8 @@
 		<nav>
 			<ul>
 				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<!--<a href="">-->Integral<!--</a>-->&nbsp;
+					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<!--<a href="">-->&#x2618;<!--</a>-->&nbsp;
 				</li>
-				<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Diferencial</li>
-				<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;Writing</li>
 			</ul>
 		</nav>
 	</div>

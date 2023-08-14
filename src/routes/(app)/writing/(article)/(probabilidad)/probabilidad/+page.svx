@@ -4,3 +4,9 @@ title: probabilidad
 ---
 
 # Probabilidad I 
+
+# Resumen
+
+Estas son notas del curso de Probabilidad I de la UNAM impartido por [Josué Manik](https://www.researchgate.net/profile/Josue-Nava-Sedeno).
+
+**Descripción del curso:** 

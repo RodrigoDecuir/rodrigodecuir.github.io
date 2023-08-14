@@ -5,4 +5,8 @@ title: lineal
 
 # Álgebra Lineal I
 
+# Resumen
 
+Estas son notas del curso de Álgebra Lineal I de la UNAM impartido por [Jesús Núñez Zimbrón](https://www.jnzimbron.com/).
+
+**Descripción del curso:** 

@@ -4,3 +4,37 @@ title: automatas
 ---
 
 # Autómatas y Lenguajes Formales
+
+# Resumen
+
+Estas son notas del curso de Autómatas y Lenguajes Formales de la UNAM impartido por [César Hernández Cruz](https://www.researchgate.net/profile/Cesar-Hernandez-Cruz).
+
+**Descripción del curso:** 
+
+<!--
+1 September 1st, 2021
+This is the first lecture of the course. We will discuss logistics, an overview of the class, and a bit
+of statistical philosophy.
+1.1 Class Overview
+Our professor is Lucas Janson, who is a professor in statistics at Harvard focusing on high-
+dimensional inference and statistical machine learning problems. Our teaching fellows are Yufan
+Li, Biyonka Liang, and Yash Nair. The prerequisites for this class are an undergraduate-level infer-
+ence class, such as Stat 111, and some exposure to graduate-level probability (e.g., CLT, Jensen’s
+inequality, Slutsky’s theorem, continuous mapping theorem, convergence).
+Most of the material in this class will come from the provided notes, but we also have three
+textbooks [CB21, LR06, LC06] for supplemental use. Lucas will also post modern literature that
+is related to each lecture topic at the end of class. Each lecture will include an “active learning”
+component where students think individually about a problem.
+Now we discuss course topics. In most sections of this class, there will be some data y and
+parameter θ, and our goal is to determine some estimate of θ that is as close to the true value as
+possible, along with a measure of uncertainty about our estimate. The main topics are:
+1. Point estimation: How can we find an estimate for θ?
+2. Confidence intervals: How confident is our estimate, under Bayesian or frequentist terms?
+3. Hypothesis testing: Is there significant evidence of a hypothesis θ = θ0 being false?1
+4. Selective inference: How can we test multiple hypotheses simultaneously?
+5. Decision making: If we assign costs to each type of error, what estimator minimizes cost?
+6. Prediction: If I collect new data according to y = fθ(x), what would it look like?
+Lucas emphasizes that this is a course in good statistical thinking, and although not all enrollees
+are the target audience of first-year PhD students, he hopes that the class content is broadly useful
+in many contexts.
+1.2 Statistical Philosophy-->

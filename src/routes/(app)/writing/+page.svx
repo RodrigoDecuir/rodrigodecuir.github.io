@@ -3,7 +3,7 @@ layout: fancy
 title: writing
 ---
 
-## Notes
+### Notes
 
 * _semestre 2024-1_
 
@@ -15,8 +15,8 @@ title: writing
 
     * [Autómatas y Lenguajes Formales](writing/automatas)
 
-## Thoughts
+### Thoughts
 
 
-## Sketches
+### Sketches
 

@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, e as escape, v as validate_component } from "../../chunks/ssr.js";
 const app = "";
 const Header_svelte_svelte_type_style_lang = "";
 const css$1 = {
@@ -6,8 +6,15 @@ const css$1 = {
   map: null
 };
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let isDropdownVisible = false;
+  function showDropdown() {
+    isDropdownVisible = true;
+  }
+  function hideDropdown() {
+    isDropdownVisible = false;
+  }
   $$result.css.add(css$1);
-  return `${`<button class="nav px-2" data-svelte-h="svelte-c1ojql">Table of Contents</button>`} ${``}`;
+  return `${!isDropdownVisible ? `<button class="${"nav px-2 sm:on:touchstart=" + escape(showDropdown, true)}">Table of Contents</button>` : ``} ${isDropdownVisible ? `  <div class="${"nav sm:on:touchend=" + escape(hideDropdown, true)}"><h1 class="svelte-1pf88gh" data-svelte-h="svelte-150gcmt">Table of Contents</h1> <nav data-svelte-h="svelte-1ope1l2"><ul class="svelte-1pf88gh"><li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#A6B3DF] svelte-1pf88gh" href="/">About me</a></li> <li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#e099e6] svelte-1pf88gh" href="/projects">Projects</a></li> <li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#99e6ab] svelte-1pf88gh" href="/writing">Writing</a></li></ul></nav></div>` : ``}`;
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {

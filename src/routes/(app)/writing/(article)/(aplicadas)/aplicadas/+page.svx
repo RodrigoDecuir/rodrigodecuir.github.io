@@ -4,3 +4,9 @@ title: aplicadas
 ---
 
 # Matemáticas para las Ciencias Aplicadas III
+
+# Resumen
+
+Estas son notas del curso de Matemáticas para las Ciencias Aplicadas III de la UNAM impartido por Víctor Alvarado Becerril.
+
+**Descripción del curso:** 
