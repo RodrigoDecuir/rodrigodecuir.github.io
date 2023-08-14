@@ -4,7 +4,7 @@
 
 <Seo title="Rodrigo Decuir" description="" />
 
-<a href="http://wrasse.pw/joel/icons/"><img src="./assets/images/ani.gif" alt="ojo" /></a>
+<img src="./assets/images/ani.gif" alt="ojo" />
 
 <div class="layout-md">
 	<h1 class="montserrat lg:font-bold md:font-bold">Rodrigo Decuir</h1>

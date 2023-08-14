@@ -6,8 +6,24 @@ const css$1 = {
   map: null
 };
 const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let isDropdownVisible = false;
+  function hideDropdown() {
+    isDropdownVisible = false;
+  }
+  function handleOutsideClick(event) {
+    const dropdown = document.querySelector(".nav");
+    if (!dropdown || !dropdown.contains(event.target)) {
+      hideDropdown();
+    }
+  }
+  onMount(() => {
+    document.addEventListener("click", handleOutsideClick);
+  });
+  onDestroy(() => {
+    document.removeEventListener("click", handleOutsideClick);
+  });
   $$result.css.add(css$1);
-  return `${`<button class="nav px-2" data-svelte-h="svelte-c1ojql">Table of Contents</button>`} ${``}`;
+  return `${!isDropdownVisible ? `<button class="nav px-2" data-svelte-h="svelte-c1ojql">Table of Contents</button>` : ``} ${isDropdownVisible ? ` <div class="nav" data-svelte-h="svelte-17w3of"><h1 class="svelte-1pf88gh">Table of Contents</h1> <nav><ul class="svelte-1pf88gh"><li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#A6B3DF] svelte-1pf88gh" href="/">About me</a></li> <li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#e099e6] svelte-1pf88gh" href="/projects">Projects</a></li> <li class="svelte-1pf88gh">   ⚬ <a class="decoration-[#99e6ab] svelte-1pf88gh" href="/writing">Writing</a></li></ul></nav></div>` : ``}`;
 });
 const Footer_svelte_svelte_type_style_lang = "";
 const css = {

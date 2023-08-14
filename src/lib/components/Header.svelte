@@ -11,12 +11,12 @@
 </script>
 
 {#if !isDropdownVisible}
-	<button class="nav px-2" on:mouseenter={showDropdown}>Table of Contents</button>
+	<button class="nav px-2" on:pointerenter={showDropdown}>Table of Contents</button>
 {/if}
 
 {#if isDropdownVisible}
 	<!-- svelte-ignore a11y-no-static-element-interactions &#9776;-->
-	<div class="nav" on:mouseleave={hideDropdown}>
+	<div class="nav" on:pointerleave={hideDropdown}>
 		<h1>Table of Contents</h1>
 		<nav>
 			<ul>
