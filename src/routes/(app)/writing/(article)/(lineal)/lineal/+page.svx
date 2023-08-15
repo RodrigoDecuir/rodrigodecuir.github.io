@@ -3,10 +3,37 @@ layout: fancy
 title: lineal
 ---
 
+<script context="module">
+    import Katex from '$lib/components/layouts/modules/Katex.svelte';
+    export { Katex };
+</script>
+
 # Álgebra Lineal I
 
-# Resumen
+> Agosto 14 
+
+**Resumen**
 
 Estas son notas del curso de Álgebra Lineal I de la UNAM impartido por [Jesús Núñez Zimbrón](https://www.jnzimbron.com/).
 
-**Descripción del curso:** 
+**Descripción del curso:** Si se pudiera definir en pocas palabras el álgebra lineal diríamos que consiste en "estudiar _espacios vectoriales_"; estructura que se puede llegar a encontrar incluso en la sopa, de modo que, se vuelve fundamental su estudio pues permite avanzar posteriormente en las carreras de ciencias.
+
+<Katex math={''} />
+
+**Bibliografía**
+
+Lang, S., _Linear Algebra_, Ed. Springer US., 3rd. Edition (1987).
+
+Friedberg, S. H., Insel, A. J., & Spence, L. E., _Linear Algebra_, Pearson Education, 4th ed. (2003).
+
+Axler, S. J., _Linear Algebra Done Right_, Ed. Springer US, 2nd ed. (1997)
+
+Treil, S., _Linear Algebra Done Wrong_. (2004)
+
+Grossman, S. I., _Elementary Linear Algebra_, Wadsworth Publishing Company, 3rd ed. (1987).
+
+Lax, P. D., _Linear Algebra and its Applications_, Ed. Wiley, 2nd edition (2007)
+
+[notas-omar](https://www.matem.unam.mx/~omar/lineal/index.html)
+
+[notas-nekomath](https://blog.nekomath.com/al1/)

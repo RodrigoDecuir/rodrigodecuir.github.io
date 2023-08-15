@@ -3,10 +3,33 @@ layout: fancy
 title: aplicadas
 ---
 
+<script context="module">
+    import Katex from '$lib/components/layouts/modules/Katex.svelte';
+    export { Katex };
+</script>
+
 # Matemáticas para las Ciencias Aplicadas III
 
-# Resumen
+> Agosto 14
+
+**Resumen**
 
 Estas son notas del curso de Matemáticas para las Ciencias Aplicadas III de la UNAM impartido por Víctor Alvarado Becerril.
 
-**Descripción del curso:** 
+**Descripción del curso:** en gran medida el objetivo del curso consiste en calcular integrales en diferentes dimensiones y sobre diferentes estructuras geométricas.
+
+## Integrales de funciones de varias variables
+
+<Katex math={''} />
+
+
+
+**Bibliografía**
+
+Leithold, Louis. (1998). _El Cálculo_, Oxford University Press, México.
+
+Marsden, Jerrold E. y Tromba, Anthony J. (2003). _Vector Calculus_, W. H. Freeman, New York.
+    
+Stewart, James. (2008). _Calculus: Early Trascendentals_, Thomson Learning.
+    
+Weir, Maurice D. (2008). _Thomas’ Calculus_, Pearson Addison-Wesley, Bosto.

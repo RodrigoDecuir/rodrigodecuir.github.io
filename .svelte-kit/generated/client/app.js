@@ -17,21 +17,24 @@ export const nodes = [
 	() => import('./nodes/13'),
 	() => import('./nodes/14'),
 	() => import('./nodes/15'),
-	() => import('./nodes/16')
+	() => import('./nodes/16'),
+	() => import('./nodes/17'),
+	() => import('./nodes/18')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [8],
-		"/(app)/license": [9,[2]],
-		"/(app)/links": [10,[2]],
-		"/(app)/projects": [11,[2]],
-		"/(app)/writing": [12,[2]],
-		"/(app)/writing/(article)/(aplicadas)/aplicadas": [13,[4]],
-		"/(app)/writing/(article)/(automatas)/automatas": [14,[5]],
-		"/(app)/writing/(article)/(lineal)/lineal": [15,[6]],
-		"/(app)/writing/(article)/(probabilidad)/probabilidad": [16,[7]]
+		"/": [9],
+		"/(app)/license": [10,[2]],
+		"/(app)/links": [11,[2]],
+		"/(app)/projects": [12,[2]],
+		"/(app)/writing": [13,[2]],
+		"/(app)/writing/(article)/(aplicadas)/aplicadas": [14,[4]],
+		"/(app)/writing/(article)/(automatas)/automatas": [15,[5]],
+		"/(app)/writing/(article)/(lineal)/lineal": [16,[6]],
+		"/(app)/writing/(article)/(probabilidad)/probabilidad": [17,[7]],
+		"/(app)/writing/(article)/(tg2)/tg2": [18,[8]]
 	};
 
 export const hooks = {

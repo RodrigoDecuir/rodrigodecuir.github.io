@@ -27,7 +27,7 @@
 .markdown-body h3:hover .anchor .octicon-link:before,
 .markdown-body h4:hover .anchor .octicon-link:before {
 	width: 16px;
-	/*	height: 16px;*/
+	height: 16px;
 	content: ' ';
 	display: inline-block;
 	background-color: currentColor;
@@ -178,9 +178,9 @@
 	font: inherit;
 }
 
-/*.markdown-body a:hover {
+.markdown-body a:hover {
 	text-decoration: none;
-}*/
+}
 
 .markdown-body ::placeholder {
 	color: #6e7781;
@@ -451,7 +451,7 @@
 .markdown-body h3 code,
 .markdown-body h4 tt,
 .markdown-body h4 code {
-	/*padding: 0 0.2em;*/
+	padding: 0 0.2em;
 	font-size: inherit;
 }
 
@@ -515,11 +515,11 @@
 }
 
 .markdown-body li > p {
-	/*margin-top: 16px;*/
+	margin-top: 16px;
 }
 
 .markdown-body li + li {
-	/*margin-top: 0.25em;*/
+	margin-top: 0.25em;
 }
 
 .markdown-body dl {
@@ -788,7 +788,7 @@
 }
 
 .markdown-body .footnotes li:target::before {
-	/*position: absolute;
+	position: absolute;
 	top: -8px;
 	right: -8px;
 	bottom: -8px;
@@ -796,7 +796,7 @@
 	pointer-events: none;
 	content: '';
 	border: 2px solid #0969da;
-	border-radius: 6px;*/
+	border-radius: 6px;
 }
 
 .markdown-body .footnotes li:target {
@@ -956,7 +956,7 @@
 }
 
 .markdown-body .task-list-item + .task-list-item {
-	/*margin-top: 4px;*/
+	margin-top: 4px;
 }
 
 .markdown-body .task-list-item .handle {
@@ -964,12 +964,12 @@
 }
 
 .markdown-body .task-list-item-checkbox {
-	/*margin: 0 0.2em 0.25em -1.4em;*/
+	margin: 0 0.2em 0.25em -1.4em;
 	vertical-align: middle;
 }
 
 .markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
-	/*margin: 0 -1.6em 0.25em 0.2em;*/
+	margin: 0 -1.6em 0.25em 0.2em;
 }
 
 .markdown-body .contains-task-list {
@@ -980,7 +980,7 @@
 .markdown-body .contains-task-list:focus-within .task-list-item-convert-container {
 	display: block;
 	width: auto;
-	/*height: 24px;*/
+	height: 24px;
 	overflow: visible;
 	clip: auto;
 }

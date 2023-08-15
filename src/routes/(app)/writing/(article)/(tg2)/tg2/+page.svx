@@ -1,0 +1,61 @@
+---
+layout: fancy
+title: teoría de gráficas 2
+---
+
+<script context="module">
+    import Katex from '$lib/components/layouts/modules/Katex.svelte';
+    export { Katex };
+    /*import Index from '$lib/components/Index.svelte';
+    export { Index };*/
+</script>
+
+<!--<Index text="" url="#"/>
+
+<br>-->
+
+# Teoría de Gráficas II 
+
+> Agosto 14 
+
+**Resumen**
+
+Estas son notas del curso de Teoría de Gráficas II de la UNAM impartido por [María del Rocío](https://www.researchgate.net/profile/Rocio-Sanchez-Lopez).
+
+**Descripción del curso:** El temario es una continuación de gráficas y juegos o teoría de gráficas I; ahondando más en la coloración, comenzando a ver el tema de dominación y viendo digráficas (o gráficas dirigidas).
+
+<Katex math={''} />
+
+<!--
+1. Teoría extremal en gráficas
+
+2. Dominación en gráficas
+
+3. Condiciones predeterminadas de movimiento en gráficas coloreadas por aristas
+
+4. Digráficas (conceptos y resultados básicos)
+
+5. Propiedades de conexidad en digráficas
+
+6. Clases de digráficas
+
+7. Conjuntos absorbentes e independientes en digráficas
+-->
+
+**Bibliografía**
+
+_Theory, Algorithms and Applications_. Jorgen Bang-Jensen and Gregory Gutin (Digraphs)
+
+_Classes of Directed Graphs_. Jorgen Bang-Jensen and Gregory Gutin
+
+_Graphs and Digraphs_. Chartrand, Lesniak and Zhang
+
+_Domination in Graphs_. Theresa Haynes
+
+_Fundamentals of Domination in Graphs_. Theresa Haynes
+
+_Introduction to Graph Theory_. Douglas West
+
+<!--
+![alt text](https://64.media.tumblr.com/33e6eed2af51ee4f197c69cfacc095f6/01b07c3866fb0b3e-c4/s2048x3072/7e82620381c0181bde903089434dda06f9ffbcb5.jpg)
+-->
