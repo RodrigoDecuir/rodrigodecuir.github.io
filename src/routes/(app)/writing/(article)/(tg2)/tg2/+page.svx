@@ -16,7 +16,7 @@ title: teoría de gráficas 2
 
 # Teoría de Gráficas II 
 
-> Agosto 14 
+> Agosto 14
 
 **Resumen**
 

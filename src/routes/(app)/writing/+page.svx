@@ -4,7 +4,8 @@ title: writing
 ---
 
 ### Notes
-
+ 
+<!--
 * _semestre 2024-1_
 
     * [Probabilidad I](writing/probabilidad)
@@ -16,7 +17,7 @@ title: writing
     * [Autómatas y Lenguajes Formales](writing/automatas)
 
     * [Teoría de Gráficas II ](writing/tg2)
-
+-->
 ### Thoughts
 
 
