@@ -15,7 +15,7 @@
 		<a
 			class="link"
 			target="_blank"
-			href="https://lightroom.adobe.com/shares/c33fcb0b718946699d17a74d18ccb447">photography</a
+			href="https://rodrigodecuir.tumblr.com/">photography</a
 		>
 		and voleyball. <br /><br />
 		<!--This is my CV. -->If you have any questions or would like to chat, feel free to reach out (<a

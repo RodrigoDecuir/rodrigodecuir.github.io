@@ -4,6 +4,8 @@
 	"/(app)/license": [],
 	"/(app)/links": [],
 	"/(app)/projects": [],
+	"/(app)/writing/(sketch)/(s-01)": [],
+	"/(app)/writing/(sketch)": [],
 	"/(app)/writing/(article)/(tg2)": [],
 	"/(app)/writing/(article)/(probabilidad)": [],
 	"/(app)/writing/(article)/(lineal)": [],
@@ -15,5 +17,6 @@
 	"/(app)/writing/(article)/(automatas)/automatas": [],
 	"/(app)/writing/(article)/(lineal)/lineal": [],
 	"/(app)/writing/(article)/(probabilidad)/probabilidad": [],
+	"/(app)/writing/(sketch)/(s-01)/s-01": [],
 	"/(app)/writing/(article)/(tg2)/tg2": []
 }
