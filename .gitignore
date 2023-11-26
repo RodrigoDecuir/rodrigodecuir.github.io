@@ -1,7 +1,7 @@
 /.cache
 /node_modules/
 /build/
-/.svelte-kit/
+#/.svelte-kit/
 /.eslintignore
 /.eslintrc.cjs
 /.netlify.toml
