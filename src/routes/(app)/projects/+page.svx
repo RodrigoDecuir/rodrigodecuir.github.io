@@ -10,7 +10,6 @@ title: projects
 
 ###### Projects
 
-<!--
 
 ##### Cumbancha
 
@@ -18,10 +17,9 @@ title: projects
 
 <Links
     options={[
-        { text: 'Website', url: 'https://rodrigodecuir.github.io/cumbancha' },
+        { text: 'Website', url: 'https://cumbancha.vercel.app' },
         { text: 'GitHub', url: 'https://github.com/rodrigodecuir/cumbancha' }
     ]}
 />
 
 A restaurant website made with HTML and Vanilla CSS.
--->
