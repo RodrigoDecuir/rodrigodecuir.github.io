@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(app)/writing/(article)/(probabilidad)/probabilidad/+page.svx";

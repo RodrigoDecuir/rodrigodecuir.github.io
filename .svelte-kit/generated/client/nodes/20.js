@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(app)/writing/(article)/(tg2)/tg2/+page.svx";
