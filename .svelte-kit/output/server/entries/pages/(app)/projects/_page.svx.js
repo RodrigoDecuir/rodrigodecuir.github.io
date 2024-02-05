@@ -37,10 +37,6 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         {
           options: [
             {
-              text: "Website",
-              url: "https://cumbancha.vercel.app"
-            },
-            {
               text: "GitHub",
               url: "https://github.com/rodrigodecuir/cumbancha"
             }
@@ -48,7 +44,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         },
         {},
         {}
-      )} <p data-svelte-h="svelte-5tgdly">A restaurant website made with HTML and Vanilla CSS.</p>`;
+      )} <p data-svelte-h="svelte-5tgdly">A restaurant website made with HTML and Vanilla CSS.</p> `;
     }
   })}`;
 });

@@ -2,7 +2,7 @@
 	export let options: Array<{ text: string; url: string }>;
 </script>
 
-<a class="links" href="https://rodrigodecuir.github.io/cumbancha">Website</a>,
+<a class="links" href="https://cumbancha.vercel.app/">Website</a>,
 <a class="links" href="https://github.com/rodrigodecuir/cumbancha">Github</a>
 
 <!--
