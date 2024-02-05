@@ -2,7 +2,7 @@
 
 export const index = 18;
 let component_cache;
-export const component = async () => component_cache ??= (await import('../entries/pages/(app)/writing/(article)/(lineal)/lineal/_page.svx.js')).default;
-export const imports = ["_app/immutable/nodes/18.4821ddd7.js","_app/immutable/chunks/scheduler.762b4b31.js","_app/immutable/chunks/index.19b44a2f.js","_app/immutable/chunks/spread.8a54911c.js","_app/immutable/chunks/Katex.f470c4d8.js","_app/immutable/chunks/katex.5026bf47.js","_app/immutable/chunks/fancy-layout.2dba5ca9.js","_app/immutable/chunks/Seo.846a210b.js"];
+export const component = async () => component_cache ??= (await import('../entries/pages/(app)/writing/(article)/(automatas)/automatas/_page.svx.js')).default;
+export const imports = ["_app/immutable/nodes/18.6b2986ba.js","_app/immutable/chunks/scheduler.762b4b31.js","_app/immutable/chunks/index.19b44a2f.js","_app/immutable/chunks/spread.8a54911c.js","_app/immutable/chunks/Katex.f470c4d8.js","_app/immutable/chunks/katex.5026bf47.js","_app/immutable/chunks/fancy-layout.2dba5ca9.js","_app/immutable/chunks/Seo.846a210b.js"];
 export const stylesheets = ["_app/immutable/assets/fancy-layout.b862d7a1.css"];
 export const fonts = [];

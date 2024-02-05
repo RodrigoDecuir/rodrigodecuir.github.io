@@ -16,9 +16,23 @@ title: projects
 
 <Links
     options={[
+        { text: 'GitHub', url: 'https://github.com/rodrigodecuir/cumbancha' }
+    ]}
+/>
+
+A restaurant website made with HTML and Vanilla CSS.
+
+<!--
+##### Cumbancha
+
+``HTML`` ``Vanilla CSS``
+
+<Links
+    options={[
         { text: 'Website', url: 'https://cumbancha.vercel.app' },
         { text: 'GitHub', url: 'https://github.com/rodrigodecuir/cumbancha' }
     ]}
 />
 
 A restaurant website made with HTML and Vanilla CSS.
+-->

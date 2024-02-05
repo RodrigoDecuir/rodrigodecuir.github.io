@@ -32,7 +32,23 @@ const metadata = { "layout": "default", "title": "projects" };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${validate_component(Default_layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign({}, $$props, metadata), {}, {
     default: () => {
-      return `<h6 data-svelte-h="svelte-1mnc6z4">Projects</h6> `;
+      return `<h6 data-svelte-h="svelte-1mnc6z4">Projects</h6> <h5 data-svelte-h="svelte-1qegs44">Cumbancha</h5> <p data-svelte-h="svelte-6zqnnz"><code>HTML</code> <code>Vanilla CSS</code></p> ${validate_component(Links, "Links").$$render(
+        $$result,
+        {
+          options: [
+            {
+              text: "Website",
+              url: "https://cumbancha.vercel.app"
+            },
+            {
+              text: "GitHub",
+              url: "https://github.com/rodrigodecuir/cumbancha"
+            }
+          ]
+        },
+        {},
+        {}
+      )} <p data-svelte-h="svelte-5tgdly">A restaurant website made with HTML and Vanilla CSS.</p>`;
     }
   })}`;
 });

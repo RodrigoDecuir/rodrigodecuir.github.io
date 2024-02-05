@@ -1,6 +1,7 @@
 {
 	"/(app)": [],
 	"/": [],
+	"/(app)/book": [],
 	"/(app)/license": [],
 	"/(app)/links": [],
 	"/(app)/projects": [],

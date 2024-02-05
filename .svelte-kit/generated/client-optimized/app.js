@@ -22,23 +22,25 @@ export const nodes = [
 	() => import('./nodes/18'),
 	() => import('./nodes/19'),
 	() => import('./nodes/20'),
-	() => import('./nodes/21')
+	() => import('./nodes/21'),
+	() => import('./nodes/22')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
 		"/": [11],
-		"/(app)/license": [12,[2]],
-		"/(app)/links": [13,[2]],
-		"/(app)/projects": [14,[2]],
-		"/(app)/writing": [15,[2]],
-		"/(app)/writing/(article)/(aplicadas)/aplicadas": [16,[4]],
-		"/(app)/writing/(article)/(automatas)/automatas": [17,[5]],
-		"/(app)/writing/(article)/(lineal)/lineal": [18,[6]],
-		"/(app)/writing/(article)/(probabilidad)/probabilidad": [19,[7]],
-		"/(app)/writing/(sketch)/(s-01)/s-01": [21,[10]],
-		"/(app)/writing/(article)/(tg2)/tg2": [20,[8]]
+		"/(app)/book": [12,[2]],
+		"/(app)/license": [13,[2]],
+		"/(app)/links": [14,[2]],
+		"/(app)/projects": [15,[2]],
+		"/(app)/writing": [16,[2]],
+		"/(app)/writing/(article)/(aplicadas)/aplicadas": [17,[4]],
+		"/(app)/writing/(article)/(automatas)/automatas": [18,[5]],
+		"/(app)/writing/(article)/(lineal)/lineal": [19,[6]],
+		"/(app)/writing/(article)/(probabilidad)/probabilidad": [20,[7]],
+		"/(app)/writing/(sketch)/(s-01)/s-01": [22,[10]],
+		"/(app)/writing/(article)/(tg2)/tg2": [21,[8]]
 	};
 
 export const hooks = {

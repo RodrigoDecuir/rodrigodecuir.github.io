@@ -12,7 +12,7 @@
 				src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png"
 				alt="linkedin"
 			/>
-		</a>&nbsp©<a class="hover:link" href="/license">2023</a>
+		</a>&nbsp©<a class="hover:link" href="/license">2024</a>
 	</p>
 </footer>
 

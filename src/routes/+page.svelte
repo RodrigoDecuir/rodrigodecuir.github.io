@@ -18,7 +18,7 @@
 			href="https://www.instagram.com/decuiiiiir/">pictures</a
 		>
 		and I also enjoy swimming 🏊. <br /><br />
-		<!--This is my CV. -->-If you want to chat, feel free to reach out (<a
+		<!--This is my CV. -->If you want to chat, feel free to reach out (<a
 			class="link"
 			href="mailto:ojo@ciencias.unam.mx">email</a
 		>).
