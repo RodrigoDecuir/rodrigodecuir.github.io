@@ -7,20 +7,61 @@
 <img src="./assets/images/ani.gif" alt="ojo" />
 
 <div class="layout-md">
-	<h1 class="montserrat lg:font-bold md:font-bold">Rodrigo Decuir</h1>
-	<p class="manrope lg:text-2xl md:text-2xl text-[#424242]">
-		Hi! I'm a computer science student at National Autonomous University of Mexico (UNAM) hooked by the idea
-		of using data science as a tool to solve social problems. <br /> <br />
-        I like to take  
-		<a
-			class="link"
-			target="_blank"
-			href="https://www.instagram.com/decuiiiiir/">pictures</a
-		>
-		and I also enjoy swimming 🏊. <br /><br />
-		<!--This is my CV. -->If you want to chat, feel free to reach out (<a
-			class="link"
-			href="mailto:ojo@ciencias.unam.mx">email</a
-		>).
-	</p>
+
+    <center>
+
+    <h1 class="montserrat lg:font-bold md:font-bold">Rodrigo Decuir</h1> <!-- switch to crimson text - sans serif -->
+  
+
+    <figure>
+        <img src="/assets/images/me-0.jpg" width="40%">
+        <figcaption>Walking down the streets</figcaption> 
+    </figure>
+    </center>
+
+  <p class="manrope lg:text-2xl md:text-2xl text-[#424242]">
+    <i>About<!--• Publications--> • CV</i>
+
+    <br><br>
+
+    <!-- using skip link
+    <a href="#content" class="skip-link">Skip to main content</a>
+
+    <header>…</header>
+
+    The skip link jumps to here
+    <main id="content"></main>
+
+    <style> 
+
+.skip-link {
+  position: absolute;
+  top: -3em;
+  background: #fff;
+}
+.skip-link:focus {
+  top: 0;
+}
+    </style>
+
+    <p> anime -> TADA NEVER FALLS IN LOVE </p>
+
+    -->
+    
+    <!-- reference for navigation https://incessantpain.neocities.org/about -->
+
+    <!-- switch to roboto - sans serif -->    
+ 
+    I am an undergraduate computer science student at National Autonomous University of Mexico (UNAM).
+    I'm interested in natural language processing, cellular automata and artificial life.
+
+    <!--
+    https://codeforces.com/profile/rodrigodecuir
+    sketching -> https://openprocessing.org/user/444191
+    -->
+
+    <!-- Publications --> 
+    
+    <!-- make a catbox file full of the besto music -->
+  </p>
 </div>

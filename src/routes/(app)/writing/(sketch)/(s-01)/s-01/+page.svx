@@ -1,9 +1,0 @@
----
-layout: fancy
-title: s-01
----
-
-<script context="module">
-    import Katex from '$lib/components/layouts/modules/Katex.svelte';
-    export { Katex };
-</script>

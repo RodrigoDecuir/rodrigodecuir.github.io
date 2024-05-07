@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Manrope:wght@400;600&family=Montserrat+Alternates&display=swap');
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +10,7 @@
 	::selection {
 		@apply bg-neutral-200;
 	}
+    
 }
 
 @layer components {
@@ -39,3 +41,7 @@
 		@apply fixed left-1/4 rounded border bg-white p-[.4%] shadow-md;
 	}
 }
+
+body {
+    @apply bg-white;
+}    

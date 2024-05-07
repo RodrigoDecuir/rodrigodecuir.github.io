@@ -10,7 +10,7 @@ const Links = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.options === void 0 && $$bindings.options && options !== void 0)
     $$bindings.options(options);
   $$result.css.add(css);
-  return `<a class="links svelte-10p2f14" href="https://rodrigodecuir.github.io/cumbancha" data-svelte-h="svelte-1nwfq0e">Website</a>,
+  return `<a class="links svelte-10p2f14" href="https://cumbancha.vercel.app/" data-svelte-h="svelte-1e9o4sb">Website</a>,
 <a class="links svelte-10p2f14" href="https://github.com/rodrigodecuir/cumbancha" data-svelte-h="svelte-xllezy">Github</a> `;
 });
 const _default = "";
@@ -36,6 +36,10 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         $$result,
         {
           options: [
+            {
+              text: "Website",
+              url: "https://cumbancha.vercel.app"
+            },
             {
               text: "GitHub",
               url: "https://github.com/rodrigodecuir/cumbancha"

@@ -22,15 +22,13 @@
 		<nav>
 			<ul>
 				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#A6B3DF]" href="/">About me</a>
+					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#A6B3DF]" href="/">Home</a>
 				</li>
 				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#e099e6]" href="/projects"
-						>Projects</a
-					>
+					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#99e6ab]" href="/notes">Notes</a>
 				</li>
-				<li>
-					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#99e6ab]" href="/writing">Writing</a>
+                <li>
+					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#e099e6]" href="/projects">Projects</a>
 				</li>
 			</ul>
 		</nav>

@@ -10,7 +10,7 @@ type EnsureDefined<T> = T extends null | undefined ? {} : T;
 type OptionalUnion<U extends Record<string, any>, A extends keyof U = U extends U ? keyof U : never> = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
 type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId = RouteId | "/" | "/(app)/book" | "/(app)/license" | "/(app)/links" | "/(app)/projects" | "/(app)/writing" | "/(app)/writing/(article)/(aplicadas)/aplicadas" | "/(app)/writing/(article)/(automatas)/automatas" | "/(app)/writing/(article)/(lineal)/lineal" | "/(app)/writing/(article)/(probabilidad)/probabilidad" | "/(app)/writing/(article)/(tg2)/tg2" | "/(app)/writing/(sketch)/(s-01)/s-01" | null
+type LayoutRouteId = RouteId | "/" | "/(app)/book" | "/(app)/license" | "/(app)/links" | "/(app)/notes" | "/(app)/notes/(article)/(aplicadas)/aplicadas" | "/(app)/notes/(article)/(automatas)/automatas" | "/(app)/notes/(article)/(lineal)/lineal" | "/(app)/notes/(article)/(probabilidad)/probabilidad" | "/(app)/notes/(article)/(tg2)/tg2" | "/(app)/notes/(notes)/w-01" | "/(app)/notes/(notes)/w-02" | "/(app)/notes/(sketch)/(s-01)/s-01" | "/(app)/projects" | null
 type LayoutParams = RouteParams & {  }
 type LayoutParentData = EnsureDefined<{}>;
 
