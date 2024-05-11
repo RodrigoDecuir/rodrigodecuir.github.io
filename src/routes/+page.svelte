@@ -1,67 +1,41 @@
-<script lang="ts">
-	import Seo from '$lib/components/Seo.svelte';
-</script>
-
-<Seo title="Rodrigo Decuir" description="" />
-
 <img src="./assets/images/ani.gif" alt="ojo" />
 
 <div class="layout-md">
 
-    <center>
-
-    <h1 class="montserrat lg:font-bold md:font-bold">Rodrigo Decuir</h1> <!-- switch to crimson text - sans serif -->
-  
-
-    <figure>
-        <img src="/assets/images/me-0.jpg" width="40%">
-        <figcaption>Walking down the streets</figcaption> 
-    </figure>
-    </center>
-
-  <p class="manrope lg:text-2xl md:text-2xl text-[#424242]">
-    <i>About<!--• Publications--> • CV</i>
-
-    <br><br>
-
-    <!-- using skip link
-    <a href="#content" class="skip-link">Skip to main content</a>
-
-    <header>…</header>
-
-    The skip link jumps to here
-    <main id="content"></main>
-
-    <style> 
-
-.skip-link {
-  position: absolute;
-  top: -3em;
-  background: #fff;
-}
-.skip-link:focus {
-  top: 0;
-}
-    </style>
-
-    <p> anime -> TADA NEVER FALLS IN LOVE </p>
-
-    -->
-    
-    <!-- reference for navigation https://incessantpain.neocities.org/about -->
-
-    <!-- switch to roboto - sans serif -->    
- 
-    I am an undergraduate computer science student at National Autonomous University of Mexico (UNAM).
-    I'm interested in natural language processing, cellular automata and artificial life.
-
-    <!--
-    https://codeforces.com/profile/rodrigodecuir
-    sketching -> https://openprocessing.org/user/444191
-    -->
-
-    <!-- Publications --> 
-    
-    <!-- make a catbox file full of the besto music -->
-  </p>
+<div class="container">
+<ul class="tab2">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen">about</a></li>
+</ul>
+<div id="About" class="tabcontent">
+<p>Hi</p>
 </div>
+
+</div>
+</div>
+
+
+<style>
+.container{
+  width:1100px;
+  background-color:#f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:70px;
+  border: 1px solid #ccc;
+}
+</style>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
