@@ -13,6 +13,9 @@
 </div>
 </div>
 
+<head>
+<title>Rodrigo Decuir</title>
+</head>
 
 <style>
 .container{
