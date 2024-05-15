@@ -3,7 +3,7 @@ layout: fancy
 title: notes
 ---
 
-### 💭 Writing
+### Writing
 
 <!--* [School, Life](notes/w-02)-->
 * [On Taking Portraits](notes/w-01)

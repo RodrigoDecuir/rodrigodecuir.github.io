@@ -27,9 +27,9 @@
 				<li>
 					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#99e6ab]" href="/notes">Notes</a>
 				</li>
-                <li>
+                		<!--<li>
 					&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a class="decoration-[#e099e6]" href="/projects">Projects</a>
-				</li>
+				</li>-->
 			</ul>
 		</nav>
 	</div>
