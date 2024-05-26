@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/(app)/notes/(sketch)/(s-01)/+layout@.svelte";

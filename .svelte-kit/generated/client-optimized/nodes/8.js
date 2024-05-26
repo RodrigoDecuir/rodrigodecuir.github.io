@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/(app)/writing/(article)/(tg2)/+layout@.svelte";

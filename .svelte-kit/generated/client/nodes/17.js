@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/(app)/notes/(article)/(aplicadas)/aplicadas/+page.svx";
