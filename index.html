@@ -7,8 +7,8 @@
   <link rel='icon' href='static/icons/eye.png'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <script src='static/js/script.js'></script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <!--<script>
     tailwind.config = {
       theme: {
         extend: {
@@ -18,11 +18,11 @@
         }
       }
     }
-  </script>
+  </script>-->
   <style type='text/tailwindcss'>
     @layer base {
       body {
-        @apply bg-background;/*bg-[#16161D] text-[gray];*/
+	@apply bg-black text-[#EAE1CC];
       }
       ::selection {
         @apply bg-indigo-200;
@@ -30,10 +30,10 @@
     }
     @layer components {
       .nav {
-        @apply fixed rounded border bg-[white] shadow-md px-2 p-1 border-solid border-[#ddd] right-0 text-[black];
+        @apply fixed rounded border bg-[#EAE1CC] shadow-md px-2 p-1 border-solid border-[#ddd] right-0 text-[black];
       }
       .table-of-contents {
-        @apply fixed rounded border bg-white shadow-md pl-1.5 pr-1.5 p-1 border-solid right-0;
+        @apply fixed rounded border bg-[#8FA0A4] shadow-md pl-1.5 pr-1.5 p-1 border-solid right-0;
       }
       .table-of-contents h1 {
         @apply font-semibold px-1 py-2;
@@ -63,28 +63,32 @@
         font-family: "Libertinus Serif", serif;
       }
       .tab button {
-        @apply bg-inherit float-left transition-[0.3s] text-[#5d57a3] text-[17px] flex flex-[auto] p-[7px] border-r-[#a09cac] border-[none] border-r border-solid;
+	@apply bg-inherit float-left transition-[0.3s] text-[#CCE4EA] /*[#5d57a3]*/ text-[17px] flex flex-[auto] p-[7px] border-r-[#a09cac] border-[none] border-r border-solid;
       }
       .tabcontent {
-        @apply border px-3 py-1.5 border-t-[0px] border-solid border-[#a09cac] place-content-center md:w-[1024px] md:mx-auto mx-1;
+	@apply border px-3 py-1.5 border-t-[0px] border-solid border-[#a09cac] place-content-center md:w-[1024px] md:mx-auto mx-1;
       }
       .footer {
         @apply flex flex-[auto] items-center justify-center p-4;
       }
       .footer p {
-        @apply justify-between text-base leading-5 text-neutral-600;
+        @apply justify-between text-base leading-5 /*text-neutral-600*/;
       }
       .footer img {
         @apply w-4;
       }
       .footer #linkedin {
-        @apply opacity-[70%];
+        @apply opacity-[80%];
       }
       .footer #octicon {
         @apply opacity-[80%];
       }
       .footer a {
-        @apply no-underline text-neutral-600 hover:underline hover:decoration-blue-400 hover:underline-offset-[3px] hover:transition-[color] hover:duration-[0.3s] hover:text-[black];
+        @apply no-underline /*text-neutral-600*/ hover:underline hover:decoration-blue-100 hover:underline-offset-[3px] /*hover:transition-[color] hover:duration-[0.3s] hover:text-[black]*/;
+      }
+      .frame_one {
+        @apply text-[24] font-medium;
+        font-family: "Times New Roman", Times, serif;
       }
     }
     @layer utilities {
@@ -95,6 +99,15 @@
         --background: 242, 236, 188;
       }
       .dark {
+        /*bg-[#16161D] text-[gray];*/
+      }
+      .pink {
+
+      }
+      .green {
+
+      }
+      .blue {
 
       }
     }
@@ -106,13 +119,14 @@
   <nav class='table-of-contents' id='dropdown' onmouseleave='hideDropdown()'>
     <h1>Table of Contents</h1>
       <ul>
-	<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a id='notes' href='notes.html'>Notes</a></li>
+	<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a id='notes' href='https://decuir.bearblog.dev'>Notes</a></li>
 	<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a id='photos' href='photos.html'>Photos</a></li>
 	<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a id='poetry' href='poetry.html'>Poetry</a></li>
+	<li>&nbsp;&nbsp;&nbsp;&#9900;&nbsp;<a id='drawings' href='drawings.html'>Drawings</a></li>
       </ul>
   </nav>
 
-  <img class='gif' loading='lazy' decoding='async' alt='eye.gif' src='static/images/eye.gif'>
+  <img class='gif' loading='lazy' decoding='async' alt='chip.gif' src='static/images/chip.gif'>
 
   <div class="tab">
     <button class='tablinks' onclick="openCity(event, 'about')" id='defaultOpen'>about</button>
@@ -123,40 +137,34 @@
   </div>
 
   <div id='about' class='tabcontent'>
-    <p>This page main purpose is to dive more in the things I like and keep track of the things I've learned 🐸.</p>
     <center>
-      <figure>
-        <img width='50%' loading='lazy' decoding='async' class='image' src='static/images/parque-mexico.jpg'>
-	<figcaption>A picture of a couple I took at Parque Mexico 📍, they were reading poems.</figcaption>
-      </figure>
-    </center>
-    <blockquote cite='https://youtu.be/UrFpNWYlIk4?t=1812'>
+      <p>This page main purposes are to dive more in the things I enjoy and keeping track of the things I've learned 🐸.</p> <br>
+      <p>I'm not well versed in a lot of topics so I'll fill that gap by writing a stance/opinion around those things.</p> <br>
+      <p>If you've got any other position on the opionions I state that you feel are more reasonable, please let me know I'm pretty open-minded.</p>
+      <img width='50%' loading='lazy' decoding='async' class='image' src='static/images/parque-mexico.jpg'> <br>
+      <blockquote cite='https://youtu.be/UrFpNWYlIk4?t=1812'>
       <p>If the time is gonna pass anyway, I think it's worth it to at least try to do something fucking cool.</p>
       <footer>—Sam Sulek, <cite>Spring Cut Day 47 - Chest</cite></footer>
     </blockquote>
-    <strong>misc</strong>
-    <ul>
-      <li>sketching<a href=' https://openprocessing.org/user/444191'><img width='1%' src='static/icons/link.png'></a></li>
-      <li></li>
-    </ul>
+    </center>
   </div>
 
   <div id='enjoy' class='tabcontent'>
-    <strong>playing</strong>
-      <ul>
-        <li>chess</li>
-	<li>go</li>
-      </ul>
+    <ul>
+      <li>board games (chess, go, ...)</li>
+      <li>generative art <a href='https://openprocessing.org/user/444191'><img loading='lazy' decoding='async' style='display:inline' width='1%' src='static/icons/link.png'></a></li>
+      <li>competitive programming <a href='https://codeforces.com/profile/rodrigodecuir'><img loading='lazy' decoding='async' style='display:inline' width='1%' src='static/icons/link.png'></a></li>
+    </ul>
   </div>
 
   <div id='fav' class='tabcontent'>
     <strong>model</strong>
       <ul>
-        <li><img loading='lazy' decoding='async' alt='alana champion' width='40%' class='image'
+        <li><img loading='lazy' decoding='async' alt='alana champion' width='25%' class='image'
 		 src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F07%2F72%2F0d%2F07720d6620ecb7b7493eb63b96ba487e.jpg&f=1&nofb=1&ipt=70abbc278fc0af0a224eaf9e2c2d3a9ef491a30f03b597a34787db95f00603c1&ipo=images'></li>
-	<li><img loading='lazy' decoding='async' alt='ali michael' width='40%' class='image'
+	<li><img loading='lazy' decoding='async' alt='ali michael' width='25%' class='image'
 	         src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F02%2F7d%2F3a%2F027d3a25fa809e9700c02f7c48dd0199.jpg&f=1&nofb=1&ipt=3a998e8c757c6366fbdfe5c136ad073dfc53e8c1b52a6e22a1225f38936fa59c&ipo=images'</li>
-	<li><img loading='lazy' decoding='async' alt='ririko masuzawa' width='40%' class='image'
+	<li><img loading='lazy' decoding='async' alt='ririko masuzawa' width='25%' class='image'
 		 src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thehandbook.com%2Fcdn-cgi%2Fimage%2Fwidth%3D300%2Cheight%3D300%2Cfit%3Dcover%2Cq%3D80%2Cformat%3Dwebp%2Fhttps%3A%2F%2Ffiles.thehandbook.com%2Fuploads%2F2022%2F02%2F244528085-1233180910534840-6725263602385212759-n-1.jpg&f=1&nofb=1&ipt=d6c3bfde51127b393410f265ad7c82a1c2e46edcdd006c62f80c85e75b758360&ipo=images'></li>
       </ul>
     <strong>cartoons</strong>
@@ -170,18 +178,23 @@
     <strong>actor</strong>
       <ul>
         <li>Natalie Portman</li>
+	<li>Cailee Spaeny</li>
       </ul>
     <strong>tv-show</strong>
       <ul>
-        <li></li>
+        <li>Skins</li>
       </ul>
-    <strong>videogame</strong>
+    <strong>games</strong>
       <ul>
-        <li></li>
+	<li>Kirby &amp; the Amazing Mirror</li>
+        <li>Call of Duty: Black Ops III</li>
       </ul>
     <strong>photographers</strong>
       <ul>
         <li>Magdalena Wosinzka</li>
+	<li>Juergen Teller</li>
+	<li>Juergen Teller</li>
+	<li>Juergen Teller</li>
 	<li>Juergen Teller</li>
 	<li>Yoshikazu Aizawa</li>
 	<li>The Michael Donovan</li>
@@ -191,12 +204,28 @@
     <strong>movies</strong>
       <ul>
         <li>Project Almanac</li>
+	<li>Wildflower</li>
+	<li>CivilWar</li>
+	<li>Perfect Days</li>
+	<li>Magnolia</li>
+	<li>Paper Towns</li>
+	<li>Men, women and children</li>
+	<li>Kung-fu master!</li>
+	<li>The tree of life</li>
       </ul>
-      <strong><a href='music.html'>music</a></strong> <br> <br>
+    <strong>poets</strong>
+      <ul>
+	<li>Ricardo Castillo</li>
+      </ul>
+    <strong><a href='music.html'>music</a></strong> <br>
     <strong><a href='links.html'>links</a></strong>
   </div>
 
   <div id='want' class='tabcontent'>
+    <p>
+    I'm not Paul Erdős, in the sense that I lack interest in material possessions.
+    However, I have no attachment to any particular possession I own. My interest resides in the fact that there are some things that I enjoy using and/or taking care of (like plants).
+    </p>
     <strong>devices</strong>
     <ul>
       <li><img loading='lazy' decoding='async' alt='Barnes & Noble Nook GlowLight 4e' width='40%'
@@ -223,38 +252,26 @@
       <li>play rainbow connection</li>
       <li>dance salsa</li>
       <li>solve the rubick cube in less than a minute</li>
-      <li>draw like akihito yoshitomi</li>
       <li>whistle</li>
       <li>juggle</li>
       <li>do a bike wheelie</li>
       <li>make balloon animals</li>
       <li>knit</li>
       <li>make voice impressions</li>
-      <li>how to give a massage</li>
+      <li>give a massage</li>
       <li>cook(better)</li>
-      <li>talk about music genders</li>
-      <li>more about geography</li>
       <li>speak german</li>
-      <li>more history</li>
-    </ul>
-    <!--
-    <strong>accomplish</strong>
-    <ul>
-      <li>get into pumahat cybersecurity team (2024)</li>
-      <li>get into mlh fellowship (2025)</li>
-      <li>get into SWY 37 (2025)</li>
-      <li>get a certificate in german (2025)</li>
+      <li>speak french</li>
     </ul>
   </div>
-    -->
 
   <footer class='footer'>
     <a target='_blank' href='https://www.github.com/rodrigodecuir'>
       <img loading='lazy' decoding='async' alt='octicon.png' id='octicon'
-	   src='static/icons/octicon.png'/></a>&nbsp;
+	   src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcreazilla-store.fra1.digitaloceanspaces.com%2Ficons%2F7914417%2Fgithub-icon-md.png&f=1&nofb=1&ipt=2e18216458474dd3bedbc9d169294b25e9a9bd8dd418350178aa05436b313d98&ipo=images'/></a>&nbsp;
     <a target='_blank' href='https://www.linkedin.com/in/rodrigo-decuir-1021bb281/'>
       <img loading='lazy' decoding='async' alt='linkedn.png' id='linkedin'
-	   src='static/icons/linkedn.png'/></a>&nbsp;©
+	   src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogopng.com.br%2Flogos%2Flinkedin-83.png&f=1&nofb=1&ipt=bffdd4e0b76a43cd13589c97a501d9883c050ef8c0b2541bf2c18d8a2048930e&ipo=images'/></a>&nbsp;©
     <a class='hover:link' href='/license'>2024</a>
   </footer>
 
