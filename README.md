@@ -6,7 +6,7 @@ My site source code. Hosted on GitHub Pages.
 
 **Client:** Alpine AJAX
 
-**Server:** Pocketbase (DB)
+**Server:**
 
 ## Run Locally
 
