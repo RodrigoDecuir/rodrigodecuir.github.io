@@ -16,8 +16,8 @@ Clone the project
   git clone https://link-to-project
 ```
 
-Start the web server
+Start the server with your browser
 
 ```bash
-   ./pocketbase serve
+  librewolf index.html
 ```
