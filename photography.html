@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>./photography</title>
     <style>
-      img { width: 43px; height: 22px; object-fit: cover; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto; }
+      img { width: 720px; height: 516.75px; object-fit: cover; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto; }
     </style>
   </head>
 
@@ -15,24 +15,46 @@
 
     <div id="login"></div>
     <!-- login -->
-    <nav>
-      <ul>
-	<li></li>
-      </ul>
-    </nav>
-
 
     <script>
       /* login */
       const login = document.querySelector("#login")
       var photos = [
 	{
-	  type: "sky",
-	  url: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fab%2F3c%2F60%2Fab3c60e4cded30d6ece45cf846f983b5.jpg&f=1&nofb=1&ipt=34261069d8081f6092b2d1b7329452a40dfa9750eddc9522d9a3b22766ac8e99&ipo=images"
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/six-flags.jpg"
 	},
 	{
-	  type: "ground",
-	  url: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fconcepto.de%2Fwp-content%2Fuploads%2F2016%2F03%2Fvision.jpg&f=1&nofb=1&ipt=711cff0c2671c6e9896aa84abc730e89362249b502ae2ae63285a05df5c6a9e1&ipo=images"
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/alonso.jpg"
+	},
+	{
+	  url: "https://github.com/rodrigodecuir/static/blob/main/photos/nuca.jpg?raw=true"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/dibujantes.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/nasty.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/parque-mexico.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/johanna.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/johanna2.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/mariposas.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/mariposas.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/mariposas3.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/main/photos/roberto.jpg"
 	}
       ]
 
@@ -41,9 +63,9 @@
 
       function render() {
         if (n < len) {
-          login.innerHTML = `<img src="${photos[n].url}">`
+          login.innerHTML = `<img src="${photos[n].url}" loading="lazy">`
           n++;
-          setTimeout(render, 1500);
+          setTimeout(render, 3500);
 	} else {
 	  login.innerHTML = ``
 	}
