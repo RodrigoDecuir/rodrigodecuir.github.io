@@ -13,6 +13,14 @@
       p { font-weight: 600; padding: 30px 0 30px 40px; }
       a { text-decoration: none; color: black; }
       a:hover { font-weight: bold; }
+      img { width: 720px; height: 516.75px; max-width: 100%; max-height: 100vh; object-fit: cover; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto; }
+      @media (max-width: 780px) {
+	  img {
+	      width: 100%; /* Ajusta el ancho de la imagen al 100% del ancho del dispositivo */
+	      height: auto; /* Ajusta la altura de la imagen automáticamente */
+	      position: relative;
+	  }
+      }
     </style>
   </head>
 
@@ -42,16 +50,15 @@
 	  <li><a href="./enjoy">Enjoy</a></li>
 	  <li><a href="./want">Want</a></li>
 	  <!--<li>Todo</li>-->
-	  <li><a href="./bookmarks">Bookmarks</a></li>
+	  <!--<li><a href="./bookmarks">Bookmarks</a></li>-->
 	  <li><a href="./music">Music</a></li>  <!--for what? explore genres, understand music, archieve music that i like/was hard to find, showcase music findings -->
 	  <!--<li><a href="https://decuir.bearblog.dev/blog/">Blog</a></li>-->
-	  <li><a href="./sketches">Sketches</a></li>
+	  <!--<li><a href="./sketches">Sketches</a></li>-->
 	  <!--<li><a href="./drawings.html">Drawings</a></li>-->
 	  <li><a href="./poetry">Poetry</a></li>
-	  <li><a href="./quotes">Quotes</a></li>
 	  <!--<li><a href="./library.html">Library/Antilibrary</a></li>-->
-	  <li><a href="./notes">Notes</a></li> <!--notes only work for me / work best when on paper-->
-	  <li><a href="./projects">Projects</a></li>
+	  <li><a href="./notes">Notes</a></li>
+	  <!-- <li><a href="./motto">Motto</a></li> -->
         </ul>
       </nav>
     </header>
@@ -59,13 +66,111 @@
     <footer>
       <p>Information</p>
     </footer>
+    
+    <!-- <p> -->
+    <!--   <iframe src="./photography.html" height="256px" width="256px"> -->
+    <!--   </iframe> -->
+      <!-- </p> -->
+    
     <!-- (social links) here, my ideology/philosophy ; things in enjoy ; leave all the working stuff to the linkedin page and declare it in the about page -->
 	  <!-- CV? Contact, Instagram, Linkedin, GitHub... @c 2022-2024 -->
 
+    <!-- <div>"What is simplicity? Simplicity is the shortest path to a solution." - Ward Cunningham</div> -->
+
+    
     <!-- js algorithm
     <pre id="motto" style="white-space:pre-line;">
       Take a moment in your day-to-day life to ask yourself if there's a better way of solving a problem with which you are faced.
     </pre> -->
+
+    <div id="login"></div>
+    <!-- login -->
+
+    <script>
+      /* login */
+      const login = document.querySelector("#login")
+      var photos = [
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/alameda.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/alonso.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/camila.jpg"
+	},
+	{
+	  url: "https://github.com/rodrigodecuir/static/blob/main/photos/camila2.jpg?raw=true"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/carretera.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/chester.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/cielo.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/cruz.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/flores.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/frida.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/johanna2.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/mariposas3.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/nury.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/parque-mexico.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/prepa.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/prepa2.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/prepa3.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/raul.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/saris.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/simetria.jpg"
+	},
+	{
+	  url: "https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/photos/six-flags.jpg"
+	},
+      ]
+      
+      var len = Object.keys(photos).length
+      var n = 0;
+
+      function render() {
+        if (n < len) {
+	  login.innerHTML = `<img src="${photos[n].url}" loading="lazy">`
+	  n++;
+	} else {
+	  n = 0;
+	}
+	setTimeout(render, 3500);
+      }
+      render();
+      
+      </script>
+    
   </body>
 
 </html>
