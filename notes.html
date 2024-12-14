@@ -14,8 +14,12 @@
       p { font-weight: 600; padding: 30px 0 30px 40px; }
       a { text-decoration: none; color: var(--gr); }
       a:hover { font-weight: bold; }
-      .sub-li { padding-left: 20px; }
       span { color: var(--br); float: right; }
+      @media (max-width: 720px) {
+	  p { padding-left: 10px; padding-right: 10px; }
+	  ul { padding-left: 10px; padding-right: 10px; }
+      }
+      
     </style>
   </head>
 
@@ -27,19 +31,14 @@
       <nav>
         <ul>
 	  <li>notes made for different graduate-level classes...</li> <br>
-	  <li><strong>Análisis de Algoritmos</strong></li>
-	  <li><a href="./algoritmos">Recursos disponibles</a></li>
-	  <br>
 	  <li><strong>Propedéutico (2025-1)</strong></li>
 	  <li><a href="./static/notes/lcc3/emacs.pdf" download="">emacs.pdf</a><span>(204KB)</span></li>
-	  <li><a href="./static/notes/lcc3/software-libre.txt" download="">software-libre.txt</a><span>(118B)</span></li>
 	  <li><a href="./static/notes/lcc3/movimiento.txt" download="">movimiento.txt</a><span>(2.5KB)</span></li>
           <li><a href="./static/notes/lcc3/animacion.sh" download="">animacion.sh</a><span>(294B)</span></li>
           <li><a href="./static/notes/lcc3/comandos.org" download="">comandos.org</a><span>(2.4KB)</span></li>
 	  <li><a href="./static/notes/lcc3/repaso.txt" download="">repaso.txt</a><span>(7.4KB)</span></li>
 	  <li><a href="./static/photos/jesus.jpg" download="">jesus.jpg</a><span>(122KB)</span></li>
 	  <li><a href="./static/notes/lcc3/latex.pdf" download="">latex.pdf</a><span>(2.33MB)</span></li>
-	  <li><a href="./static/notes/lcc3/ejercicio.tex" download="">ejercicio.tex</a><span>(3.7KB)</span></li>
 	  <li><a href="./static/notes/lcc3/git.pdf" download="">git.pdf</a><span>(337KB)</span></li>
         </ul>
       </nav>
