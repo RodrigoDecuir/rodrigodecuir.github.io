@@ -10,33 +10,81 @@
       :root { --re:#f65239; --gr:#219a6d; --ye:#f3c83b; --bl:#5366ab; --br:#c67816; }
       body { font-family: "Roboto", sans-serif; font-size: 14px; font-weight: 300; line-height: 1.5em; }
       ul { list-style-type: none; }
-      p { font-weight: 600; padding: 30px 0 30px 40px; }
+      h1 { font-weight: 600; padding: 30px 0 30px 40px; font-size: 16px; }
       a { text-decoration-style: dotted; color: black; }
       a:hover { font-weight: bold; }
       .sub-li { padding-left: 20px; }
       span { color: var(--br); float: right; }
+      p { padding: 0px; margin: 0px; font-weight: 300; margin-left: 5px; font-size: 12px; }
+
+      img { height: 180px; float: left; }
+      img:hover { filter: blur(1px); }
+      .caption { display: block; height: 165px; width: 160px; overflow-y: scroll; float: right; margin-left: 0px; }
+      .album { padding-left: 40px; }
+      div { display: inline-block; text-align: left; height: 180px; padding-bottom: 15px; }
+      h4, h5 { padding: 0px; margin: 0px; font-weight: 500; margin-left: 5px;}
+      h5 { font-style: italic; font-size: 13px; }
+      h2 { font-weight: 600; padding: 0px 0 0px 40px; font-size: 16px; }
+      @media (max-width: 720px) {
+	  p { padding-left: 10px; }
+          ul { padding-left: 10px; }
+          h1 { padding-left: 10px; }
+          h2 { padding-left: 10px; }
+          .album { padding-left: 10px; }
+      }
+      ::-webkit-scrollbar { width: 2px; }
+      ::-webkit-scrollbar-thumb { background: #ffffff50; }
+
     </style>
   </head>
 
   <body>
     <header>
 
-      <p>./music</p>
+      <h1>./music</h1>
 
       <nav>
         <ul>
-	  <li>songs that i've found</li> <br>
-	  <li><a href="https://www.youtube.com/watch?v=przamcaxUgM&pp=ygUTcHJldGVuZGlzaCBsb3dlcnRvbg%3D%3D">pretendish - lowertown</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=Ze1ux7GiW_s&pp=ygUUZ3JpbWVzIGNyeXN0YWxsIGJhbGw%3D">grimes - crystal ball</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=7I1pzpEaADk&pp=ygUaYmliaW8gcHJlZW4geW91ciBvd24gd2luZ3M%3D">bibio - preen your own wings</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=ihG_PPhOvl0&pp=ygUeaiBjb2xlIHJldmVuZ2Ugb2YgdGhlIGRyZWFtZXJz">j cole - revenge of the dreamers</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=bASK05W4fes&pp=ygUldGhlIHZlbHZldCB1bmRlcmdyb3VuZCBzdGVwaGFuaWUgc2F5cw%3D%3D">the velvet underground - stephanie says</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=_mnSOq5aGcg">norah jones - the story</a></li>
-	  <li><a href="https://www.youtube.com/watch?v=W5xK11ngG1w&pp=ygUZcGFyYWRpc2Uga2lzcyBhcmFzaGkgc29uZw%3D%3D">paradise kiss - kiminoseiza</a></li>
+	  <li>some of my  favorite albums, in no particular order</li>
         </ul>
       </nav>
 
     </header>
+
+    <div class="album">
+      <img src="https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/albums/enjambre_daltonico.jpg">
+      <div class="caption">
+	<h4>Daltónico [Enjambre, 2010]</h4>
+	<h5>favourite tracks:</h5>
+	<p>
+	  1. Visita <br>
+	  2. Dulce Soledad<br>
+	  3. Sanguijuela
+	</p>
+	<h5>best when/for:</h5>
+	<p>
+	  driving...
+	</p>
+      </div>
+    </div>
+    
+    <div class="album">
+      <img src="https://raw.githubusercontent.com/rodrigodecuir/static/refs/heads/main/albums/chromakopia.jpg">
+      <div class="caption">
+	<h4>Tyler, the creator [CHROMAKOPIA, 2024]</h4>
+	<h5>favourite tracks:</h5>
+	<p>
+	  1. ... <br>
+	  2. ...<br>
+	  3. 
+	</p>
+	<h5>best when/for:</h5>
+	<p>
+	  chilling...
+	</p>
+      </div>
+    </div>
+    
   </body>
 
 </html>
